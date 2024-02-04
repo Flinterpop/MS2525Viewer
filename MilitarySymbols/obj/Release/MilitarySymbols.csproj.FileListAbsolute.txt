@@ -1,0 +1,19 @@
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilitarySymbols\bin\Release\Data\LegacyMappingTableCtoD.csv
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilitarySymbols\bin\Release\Data\All_Entities.csv
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilitarySymbols\bin\Release\Data\All_Modifiers.csv
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilitarySymbols\bin\Release\MilitarySymbols.dll.config
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilitarySymbols\bin\Release\MilitarySymbols.dll
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilitarySymbols\bin\Release\MilitarySymbols.pdb
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilitarySymbols\bin\Release\Svg.dll
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilitarySymbols\obj\Release\MilitarySymbols.dll
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilitarySymbols\obj\Release\MilitarySymbols.pdb
+D:\GITRepos\reposSource\ms2525sidcviewer\MilitarySymbols\bin\Release\Data\LegacyMappingTableCtoD.csv
+D:\GITRepos\reposSource\ms2525sidcviewer\MilitarySymbols\bin\Release\Data\All_Entities.csv
+D:\GITRepos\reposSource\ms2525sidcviewer\MilitarySymbols\bin\Release\Data\All_Modifiers.csv
+D:\GITRepos\reposSource\ms2525sidcviewer\MilitarySymbols\bin\Release\MilitarySymbols.dll.config
+D:\GITRepos\reposSource\ms2525sidcviewer\MilitarySymbols\bin\Release\MilitarySymbols.dll
+D:\GITRepos\reposSource\ms2525sidcviewer\MilitarySymbols\bin\Release\MilitarySymbols.pdb
+D:\GITRepos\reposSource\ms2525sidcviewer\MilitarySymbols\bin\Release\Svg.dll
+D:\GITRepos\reposSource\ms2525sidcviewer\MilitarySymbols\obj\Release\MilitarySymbols.csprojResolveAssemblyReference.cache
+D:\GITRepos\reposSource\ms2525sidcviewer\MilitarySymbols\obj\Release\MilitarySymbols.dll
+D:\GITRepos\reposSource\ms2525sidcviewer\MilitarySymbols\obj\Release\MilitarySymbols.pdb

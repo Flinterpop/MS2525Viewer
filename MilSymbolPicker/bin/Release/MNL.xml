@@ -1,0 +1,2259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NIDDictionary xmlns="http://c4ic.com/Signals" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <Author>B. Graham</Author>
+  <DTG>13 2048Z Aug 18</DTG>
+  <Groups>
+    <NIDDictionaryGroup>
+      <GroupName>1 CMBG</GroupName>
+      <Id>da85bad7-3886-4d6b-a39b-246677a38279</Id>
+      <SubGroups>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>e5798f3c-c884-415f-8015-03942646816c</Id>
+              <NetId>1900</NetId>
+              <NetName>BDE COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>94a50373-4458-4901-bc9d-cd0de2e454b5</Id>
+              <NetId>1980</NetId>
+              <NetName>BDE ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>240736a2-6376-4bd7-8eac-724a57bfe4b3</Id>
+              <NetId>1910</NetId>
+              <NetName>BDE TAD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>559ee855-8896-47ff-96cb-f7ccd0988656</Id>
+              <NetId>1920</NetId>
+              <NetName>BDE INT</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>da33a904-fc57-4aa1-bb23-f8d31f32a30e</Id>
+              <NetId>1930</NetId>
+              <NetName>BDE TARN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>b108bb3f-823a-4804-a327-86fe9f70c144</Id>
+              <NetId>1960</NetId>
+              <NetName>BDE GD</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>d6519ed0-345e-4126-8bda-02b569fa820a</Id>
+          <Name>BDE NETS</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>6040cf1b-9b0c-43b3-8b09-8e611e20a0cb</Id>
+              <NetId>1500</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>f057e3a8-abb3-49b0-a1b3-965c83b0bd06</Id>
+              <NetId>1580</NetId>
+              <NetName>ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>d8209913-eeff-4a26-b559-88a49d12813b</Id>
+              <NetId>1510</NetId>
+              <NetName>A BTY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>22eb86af-c1de-40e3-9697-87de775d30f2</Id>
+              <NetId>1520</NetId>
+              <NetName>B BTY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>a076ad42-c7f1-4866-9442-553aee827db8</Id>
+              <NetId>1530</NetId>
+              <NetName>C BTY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>7e66a918-7d08-4ff1-bace-d36d59c21b29</Id>
+              <NetId>1540</NetId>
+              <NetName>REGT RING</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>721f9ac3-fbfd-43b2-a45c-af0ced5b742e</Id>
+              <NetId>1550</NetId>
+              <NetName>REGT SVY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>15c18e50-2da5-4fab-8237-d4579d238d00</Id>
+              <NetId>1560</NetId>
+              <NetName>A BTY GUN NET</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>9e84a746-436b-4b42-ae31-152ddc7c7886</Id>
+              <NetId>1570</NetId>
+              <NetName>B BTY GUN NET</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>d0f9b1d2-02f0-4691-a54c-c4713b50b37b</Id>
+              <NetId>1590</NetId>
+              <NetName>C BTY GUN NET</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>2e948959-a1ed-41c3-bbc8-19a7d2f87cac</Id>
+          <Name>1 RCHA</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>d9856ccd-256b-46be-8bc3-2b1a75527bb3</Id>
+              <NetId>1800</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>780b2272-8ea1-4633-8af9-c836ce0143b8</Id>
+              <NetId>1810</NetId>
+              <NetName>S&amp;T COY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>f1f999f4-fe43-49b7-b6f4-0f3a8d961fc4</Id>
+              <NetId>1820</NetId>
+              <NetName>EN FORCE</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>c9543a23-8b62-49a7-be1b-1cf98e649e00</Id>
+              <NetId>1830</NetId>
+              <NetName>MAINT COY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>490f853a-ffc7-46fe-8556-d1e6a63f158d</Id>
+              <NetId>1840</NetId>
+              <NetName>FLG 1</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>be514e50-f0e3-47a6-a2cb-75481a6ed6e4</Id>
+              <NetId>1850</NetId>
+              <NetName>FLG 2</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>7f8d7ff7-8a59-4ef4-b501-fc74b75b8430</Id>
+              <NetId>1880</NetId>
+              <NetName>ADM COY</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>bb7cbfdd-d387-4269-8b3b-acd2173ba232</Id>
+          <Name>1 SVC BN</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>78cba1ec-6d35-461a-8c2f-6e37bb1ce389</Id>
+              <NetId>1860</NetId>
+              <NetName>SQN COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>29dfb424-3176-49c1-b404-d9acd3d8938e</Id>
+              <NetId>1870</NetId>
+              <NetName>SQN ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>aab7b7b9-c010-471a-a636-8cd2e3e147b4</Id>
+              <NetId>1890</NetId>
+              <NetName>SQN EVAC</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>cf8aa638-064f-468b-81d5-f6806ab12017</Id>
+          <Name>1 FD AMB</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>3d8e2179-287e-4502-8e39-ad4c963c29f4</Id>
+              <NetId>1600</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>2059cc39-b71a-470f-816a-99842969e5b3</Id>
+              <NetId>1680</NetId>
+              <NetName>A FLT</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>af44437c-72a1-40cd-a347-ada2d1c313f7</Id>
+              <NetId>1610</NetId>
+              <NetName>B FLT</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>6529b4aa-6f3f-43e8-abf2-8a3a5a9e8d08</Id>
+              <NetId>1620</NetId>
+              <NetName>C FLT</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>372bbfed-b36b-4582-bc1a-bb18fbca8e0d</Id>
+              <NetId>1630</NetId>
+              <NetName>ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>fb584c87-b5d8-40bf-aa12-a6e5b22e4885</Id>
+              <NetId>1640</NetId>
+              <NetName>LZ-LO</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>7e2381d6-33b5-41f9-93a7-4df2fe075fff</Id>
+              <NetId>1650</NetId>
+              <NetName>UHF FLT NET</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>46d46d2a-2155-45c1-a4bb-824503371581</Id>
+              <NetId>1660</NetId>
+              <NetName>HF LONG RANGE</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>79f08d3b-1516-4bdb-812d-8f25d2342d1d</Id>
+          <Name>408 THS</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>8e7ce4fb-72a2-4be7-a1e6-6d2b2e2a15dd</Id>
+              <NetId>1100</NetId>
+              <NetName>BN COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>521d5fcf-ba5a-4ccf-a783-33521e8ac854</Id>
+              <NetId>1180</NetId>
+              <NetName>BN ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>0243b7a5-7c93-439d-a62d-51b6332fd449</Id>
+              <NetId>1110</NetId>
+              <NetName>A COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>4abb47b1-844f-457a-ba4f-9ccbe31e0e8d</Id>
+              <NetId>1120</NetId>
+              <NetName>B COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>c4f5a181-1f8a-49ca-8cb8-86b760df0c27</Id>
+              <NetId>1130</NetId>
+              <NetName>C COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>8a0c6719-afe0-4190-a3e5-443df3dd4e7a</Id>
+              <NetId>1140</NetId>
+              <NetName>SNIPER SECTION</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>a9c62f21-b84e-407e-9bb7-2c62f5e4d63e</Id>
+              <NetId>1150</NetId>
+              <NetName>MORTAR PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>d70247d9-c94d-4fda-8491-34818f1752e4</Id>
+              <NetId>1160</NetId>
+              <NetName>RECCE PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>f352b809-7e12-4d8e-9547-3f807fda7438</Id>
+              <NetId>1170</NetId>
+              <NetName>AA PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>770ed7e6-58d8-46a8-9116-c41059ea9109</Id>
+              <NetId>1190</NetId>
+              <NetName>PNR PL</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>dcd1462c-75e0-4dcc-9bc0-56183c29d1a6</Id>
+          <Name>1 PPCLI</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>379305c4-4ca8-4b2b-92ad-ad9f8a42e540</Id>
+              <NetId>1200</NetId>
+              <NetName>BN COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>7efbf1bb-ae99-462c-aba5-405f9cbdf144</Id>
+              <NetId>1280</NetId>
+              <NetName>BN ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>90bfb787-3e94-43df-98b2-73e0f0a6ec21</Id>
+              <NetId>1210</NetId>
+              <NetName>A COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>07c87d7d-9107-45ac-9718-41e627fa760d</Id>
+              <NetId>1220</NetId>
+              <NetName>B COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>4328fc98-92b4-473a-bfe1-e49be8f2e2af</Id>
+              <NetId>1230</NetId>
+              <NetName>C COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>039b2946-3f9c-4936-a57a-19be9efec183</Id>
+              <NetId>1240</NetId>
+              <NetName>FIRE CONTROL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>924eedd2-3f89-4198-b0f3-1279ea5337a9</Id>
+              <NetId>1250</NetId>
+              <NetName>MORTAR PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>8c921dc6-49b0-4b70-9a32-c349c3e4930d</Id>
+              <NetId>1260</NetId>
+              <NetName>RECCE PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>f03a8ac2-bceb-4fc5-8569-121dba0adf96</Id>
+              <NetId>1270</NetId>
+              <NetName>AA PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>d08ee7e0-8bbd-47fc-8c8e-6a7ca3134594</Id>
+              <NetId>1290</NetId>
+              <NetName>PNR PL</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>3771ded7-e0b9-4504-8b2c-e00ba52b7e1e</Id>
+          <Name>2 PPCLI</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>bda1166c-6527-4017-9d6d-2cf62dd2eadc</Id>
+              <NetId>1300</NetId>
+              <NetName>BN COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>18cb0470-bee1-428d-8f3a-f388c35dfe46</Id>
+              <NetId>1380</NetId>
+              <NetName>BN ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>0602e95a-d0c1-4618-bef4-bfc17328819d</Id>
+              <NetId>1310</NetId>
+              <NetName>A COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>c9d41a82-a070-49a4-bce0-159ae3540eac</Id>
+              <NetId>1320</NetId>
+              <NetName>B COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>7bfa9db3-88a4-4969-afdf-7dda88a54bc4</Id>
+              <NetId>1330</NetId>
+              <NetName>C COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>534d31db-43f2-4a2d-b8ee-4545c694ab75</Id>
+              <NetId>1340</NetId>
+              <NetName>AA PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>6dc98eb7-1024-4ff7-979f-0b16ed8da716</Id>
+              <NetId>1350</NetId>
+              <NetName>MORTAL PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>4bb3491f-641d-4732-809b-b83ecd704c22</Id>
+              <NetId>1360</NetId>
+              <NetName>PARA COY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>2cd87605-db7b-46c5-89c9-c49238282667</Id>
+              <NetId>1370</NetId>
+              <NetName>PNR PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>a011cc13-5fd8-430c-a76a-062e7f9be96f</Id>
+              <NetId>1390</NetId>
+              <NetName>RECCE PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>255a87e5-adf4-4523-a20f-4ec4b4074c4d</Id>
+              <NetId>1940</NetId>
+              <NetName>UHF DZ CTL and FIRE NET</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>843be7e7-953a-425b-b3b7-4611d17732a7</Id>
+              <NetId>1950</NetId>
+              <NetName>(HF) REAR LINK DZ and RECCE</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>7a7c8c00-75b8-40bb-aa01-e430066bdcd6</Id>
+          <Name>3 PPCLI</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>5a47e68f-6f48-4231-adf8-1fa82af93029</Id>
+              <NetId>1700</NetId>
+              <NetName>REGT COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>118e120d-c9bf-4b3d-8021-fcbf065d1520</Id>
+              <NetId>1780</NetId>
+              <NetName>REGT ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>12e45fab-eade-40bf-a49f-d6787a01ffec</Id>
+              <NetId>1710</NetId>
+              <NetName>11 FD SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>05ab0be6-906c-4f5a-9b31-9f47ec8054ca</Id>
+              <NetId>1720</NetId>
+              <NetName>12 FD SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>25a9898c-dfae-48af-b6a6-ec7ed3195005</Id>
+              <NetId>1730</NetId>
+              <NetName>13 CIED SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>9b21d0c9-ad9f-4bb1-9f60-4859bc2c2dd1</Id>
+              <NetId>1750</NetId>
+              <NetName>15 ESS SQN</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>bcf1f466-13cd-463b-a08d-4bb0b9331255</Id>
+          <Name>1 CER</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>91371687-f5dd-4912-9359-9734d0e972de</Id>
+              <NetId>1770</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>624a62b4-2b5a-4562-bac9-6b10dab7af99</Id>
+          <Name>1 MP PL</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>38fcc9d6-9b71-4c13-bb10-00f27789ef91</Id>
+              <NetId>1400</NetId>
+              <NetName>REGT COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>8e7a57e4-8bfa-47e9-9eb6-9e6cf3a1a0e7</Id>
+              <NetId>1480</NetId>
+              <NetName>REGT ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>5211993e-f01a-4294-a1ba-aad4a96dd54a</Id>
+              <NetId>1410</NetId>
+              <NetName>HQ SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>ff4dca9a-6437-4065-90be-d83a040553ba</Id>
+              <NetId>1420</NetId>
+              <NetName>A SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>d8c7d9f8-4f38-43b1-a8ea-8d764049f8eb</Id>
+              <NetId>1421</NetId>
+              <NetName>A SQN - 1 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>1c9134fe-1215-49bd-ada2-79e6644355ad</Id>
+              <NetId>1422</NetId>
+              <NetName>A SQN - 2 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>083d1dd1-a264-4566-a5f5-bebf42d9ffce</Id>
+              <NetId>1423</NetId>
+              <NetName>A SQN - 3 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>c55c2b10-d6c1-4f79-8f6c-b9db13307d12</Id>
+              <NetId>1430</NetId>
+              <NetName>B SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>f65f5ce4-9154-4e06-a419-3d0104bf87dc</Id>
+              <NetId>1431</NetId>
+              <NetName>B SQN - 1 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>e1086c90-37f6-4eac-ad3c-0ffbccdd890b</Id>
+              <NetId>1432</NetId>
+              <NetName>B SQN - 2 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>a4729089-a8e5-40a1-88a6-0a8191de31d4</Id>
+              <NetId>1433</NetId>
+              <NetName>B SQN - 3 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>8d490b58-b318-4ab4-b091-7dffaf42ce8e</Id>
+              <NetId>1460</NetId>
+              <NetName>RECCE SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>85458c85-b99b-45f3-8a7d-8739be9a047e</Id>
+              <NetId>1461</NetId>
+              <NetName>RECCE SQN - 1 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>dc42417c-4a0a-4036-9de3-894b9725e78c</Id>
+              <NetId>1462</NetId>
+              <NetName>RECCE SQN - 2 TP</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>5d3a1511-181b-4ef4-9bb0-ef3d03ba1d38</Id>
+          <Name>LDSH(RC)</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>6d70a399-2e5d-4958-bbea-23ef1e57b60b</Id>
+              <NetId>1000</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>e0bba9e2-727c-471e-8cbe-1a0b1f4c265e</Id>
+              <NetId>1080</NetId>
+              <NetName>ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>bf6a054f-d4cb-48c5-9cd6-4be9e72f6649</Id>
+              <NetId>1990</NetId>
+              <NetName>EXCON</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>e0fd8d77-1284-4d39-b1ca-fb7f0db77d0d</Id>
+          <Name>1 CMBG HQ &amp; SIGS</Name>
+        </NIDDictionarySubGroup>
+      </SubGroups>
+    </NIDDictionaryGroup>
+    <NIDDictionaryGroup>
+      <GroupName>2 CMBG</GroupName>
+      <Id>29f4c39c-3aa1-47d5-94aa-5d347faa6b6f</Id>
+      <SubGroups>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>065452d4-6b61-48a3-84a7-84f5c71ff355</Id>
+              <NetId>2900</NetId>
+              <NetName>BDE COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>47a8a089-d93d-4c1f-b26f-73e67bc7b0d6</Id>
+              <NetId>2980</NetId>
+              <NetName>BDE ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>bebeba14-3f24-4300-bf89-1dd0911e0a7c</Id>
+              <NetId>2910</NetId>
+              <NetName>BDE TAD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>81544a05-0570-4315-9ebf-f33201b37c11</Id>
+              <NetId>2930</NetId>
+              <NetName>BDE TARN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>0b30ad10-0ddc-47e4-b5f3-8a9d6c5aff7e</Id>
+              <NetId>2960</NetId>
+              <NetName>BDE GD</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>2bc68bd6-1f7e-4b37-a409-996a9f46f656</Id>
+          <Name>BDE NETS</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>4d67ee44-7086-485f-9cee-30e3bd326b37</Id>
+              <NetId>2500</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>719a6c83-4d50-4ba3-884d-203650d1bd0d</Id>
+              <NetId>2580</NetId>
+              <NetName>ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>7407e6ab-928c-4fc3-8a4a-883fab56bb7a</Id>
+              <NetId>2510</NetId>
+              <NetName>D BTY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>f3940870-fa2c-42c8-b988-c560d9c37a7a</Id>
+              <NetId>2520</NetId>
+              <NetName>E BTY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>0dc8f259-2c40-455a-ae5f-f6942b30e5c8</Id>
+              <NetId>2530</NetId>
+              <NetName>F BTY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>72f55799-ca00-488a-a504-8c9899d74716</Id>
+              <NetId>2540</NetId>
+              <NetName>REGT RING</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>04710e22-7e04-4414-a23a-b5f5b10fb9db</Id>
+              <NetId>2550</NetId>
+              <NetName>REGT SVY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>e2236d36-b648-43fb-9d8a-bbe04ec8a947</Id>
+              <NetId>2560</NetId>
+              <NetName>D BTY GUN NET</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>d5934771-429e-4ce4-ad62-414d2a12405e</Id>
+              <NetId>2570</NetId>
+              <NetName>E BTY GUN NET</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>7b1bb7e2-72b4-41b1-b6b8-479f9feadfa9</Id>
+              <NetId>2590</NetId>
+              <NetName>F BTY GUN NET</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>9f5a8ca7-34fc-44a9-95f6-ef9f79b1bc47</Id>
+          <Name>2 RCHA</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>993f647b-4fd4-40ac-b65d-5111d839c01e</Id>
+              <NetId>2090</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>03b9739d-e689-4281-a712-8fe1f1b9ef18</Id>
+              <NetId>2030</NetId>
+              <NetName>89 BTY</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>07882394-5931-404c-967e-fc93f22e46f1</Id>
+          <Name>1 AD</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>bf9fad56-9da1-41c9-bcf8-f592a29f6d2f</Id>
+              <NetId>2800</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>8ec0d6b1-c22b-4ea0-a7ba-9acb30f8d892</Id>
+              <NetId>2880</NetId>
+              <NetName>ADM COY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>ce47657b-8640-418f-af8a-400654c4e4fa</Id>
+              <NetId>2810</NetId>
+              <NetName>S&amp;T COY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>0884d49a-fcf6-41ad-90a1-c6b5861f82dd</Id>
+              <NetId>2820</NetId>
+              <NetName>EN FORCE</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>582fe4a7-2c80-4bae-8e66-5d0dc037a3b4</Id>
+              <NetId>2830</NetId>
+              <NetName>MAINT COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>610e8048-86c6-4d18-b21f-50a3fda764f8</Id>
+              <NetId>2840</NetId>
+              <NetName>FLG 1</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>1dd464b2-e46f-46be-af67-cb739b58f633</Id>
+              <NetId>2850</NetId>
+              <NetName>FLG 2</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>812eaafe-c70f-4e98-8395-6575561a4bad</Id>
+          <Name>2 SVC BN</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>8d72c0df-11c5-46b0-a619-dfb8c799edd5</Id>
+              <NetId>2860</NetId>
+              <NetName>SQN COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>135fc793-7b31-47cf-8217-500bfbc604f6</Id>
+              <NetId>2870</NetId>
+              <NetName>ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>3633a8df-5563-4040-b3aa-5829070396d1</Id>
+              <NetId>2890</NetId>
+              <NetName>EVAC</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>27a0aea8-27b0-4bf2-85af-3b95f96777be</Id>
+          <Name>2 FD AMB</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>2064ab62-5451-45e3-957e-da804596964b</Id>
+              <NetId>2600</NetId>
+              <NetName>HELO NET 1</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>49914696-1e7b-457d-bba0-7190c472fd3a</Id>
+              <NetId>2640</NetId>
+              <NetName>HELO NET 2</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>2e30c533-bb5a-4add-8237-f35cfd62275c</Id>
+              <NetId>2610</NetId>
+              <NetName>TACP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>c6fae446-7a1e-40bc-863b-ff4a26a228ca</Id>
+              <NetId>2620</NetId>
+              <NetName>TACP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>1562e176-6ab5-4692-843f-587a47a80e49</Id>
+              <NetId>2630</NetId>
+              <NetName>UHF COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>0dfe7642-2a15-46a9-a4e5-88acef2e7c63</Id>
+              <NetId>2680</NetId>
+              <NetName>HF GUARD</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>27987c85-1081-4c84-9f2b-3df5f77cee30</Id>
+          <Name>AIR ASSET</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>959f401a-d42c-4258-9e26-d2d580295d3b</Id>
+              <NetId>2100</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>eeb7b646-2a0f-40f6-a411-5966e0680258</Id>
+              <NetId>2180</NetId>
+              <NetName>ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>c52fdb08-6a9c-4914-8d7b-524b9dcad133</Id>
+              <NetId>2110</NetId>
+              <NetName>DUKES COY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>db5181d9-c8cb-4c52-a3bf-34be1733cce1</Id>
+              <NetId>2120</NetId>
+              <NetName>BRAVO COY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>cf4cd4b5-fb68-44dc-84c8-d001bb32c8cb</Id>
+              <NetId>2130</NetId>
+              <NetName>CHARLES COY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>8d14fd7f-f092-4a8e-870c-301a68d36a0e</Id>
+              <NetId>2140</NetId>
+              <NetName>SNIPER SECTION</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>c9a416f0-cf71-4e09-a220-55a9823666fd</Id>
+              <NetId>2150</NetId>
+              <NetName>DELTA COY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>7bff50be-5651-4c1c-b033-577ae791f822</Id>
+              <NetId>2160</NetId>
+              <NetName>RECCE PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>db88b85c-c808-48f7-a037-b3c2093f51a0</Id>
+              <NetId>2170</NetId>
+              <NetName>AA PL</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>d0bbb474-a4a2-4ea6-b7a8-33ff62d19aa7</Id>
+          <Name>1 RCR</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>e292ddac-5e15-4cb3-bf3f-ad8f56aa9da6</Id>
+              <NetId>2200</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>69625da0-cdfd-4c21-a261-d3eedb1b7d9f</Id>
+              <NetId>2280</NetId>
+              <NetName>ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>db9b7eee-173c-4d51-bbfc-e27cef7d48c8</Id>
+              <NetId>2210</NetId>
+              <NetName>G COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>e0e59878-1099-4eed-bd60-fcbed030c46c</Id>
+              <NetId>2220</NetId>
+              <NetName>H COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>af3947a6-72fc-4ac2-a3d9-8b11852e174d</Id>
+              <NetId>2230</NetId>
+              <NetName>I COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>f491acba-6dc0-4d22-b802-d7e01ffe0172</Id>
+              <NetId>2240</NetId>
+              <NetName>FIRE CONTROL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>a20bf0ae-e0b5-4a9b-a6f9-bb0066154778</Id>
+              <NetId>2260</NetId>
+              <NetName>RECCE PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>9b3af293-1602-427a-b30f-73eaf88ff98e</Id>
+              <NetId>2270</NetId>
+              <NetName>AA PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>457e5156-39b3-4a04-9304-3c13b2bce1ae</Id>
+              <NetId>2290</NetId>
+              <NetName>L COY</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>43dd4202-0ffe-465e-85fc-e17404e04b04</Id>
+          <Name>2 RCR</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>a340eed3-4895-44e3-b2fe-7dd5a3872756</Id>
+              <NetId>2300</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>6543e4d5-4330-453b-871e-c3fea20c0e4c</Id>
+              <NetId>2380</NetId>
+              <NetName>ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>a3e0d7f9-2aff-4cfe-bf1b-0214ddec2246</Id>
+              <NetId>2310</NetId>
+              <NetName>PARA COY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>414a3412-a9cf-463e-99de-7ffdb2752bc0</Id>
+              <NetId>2320</NetId>
+              <NetName>NOVEMBER COY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>1adfdd28-e2fb-4657-887d-3970af66679b</Id>
+              <NetId>2330</NetId>
+              <NetName>OSCAR COY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>7c8a3365-ae06-41f2-9f78-a2ea06da03ba</Id>
+              <NetId>2360</NetId>
+              <NetName>RECCE COY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>327c4ee1-a041-47a8-b7c0-f7e5f42e5e9b</Id>
+              <NetId>2370</NetId>
+              <NetName>AA PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>506f0083-b96b-4428-8857-6632be9c6be9</Id>
+              <NetId>2390</NetId>
+              <NetName>UHF DZ CTL and FIRE NET</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>06c0b6c1-7db1-482e-9149-d9588a11d01b</Id>
+              <NetId>2950</NetId>
+              <NetName>(HF) REAR LINK DZ and RECCE</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>2b94a367-804b-406e-9d98-c4690d3b0ca6</Id>
+          <Name>3 RCR</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>2a720022-e9fa-497c-a0db-72f22dc2a486</Id>
+              <NetId>2400</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>05b8ad58-3afa-4ca8-b828-18d96a0cc5fd</Id>
+              <NetId>2480</NetId>
+              <NetName>ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>9e347434-a7ca-47a1-ba65-566efe6145e8</Id>
+              <NetId>2410</NetId>
+              <NetName>HQ SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>fe011af0-4bc1-4903-a740-2bde4a59f0ba</Id>
+              <NetId>2420</NetId>
+              <NetName>A SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>e0c5ea44-e8ea-4158-9382-377cd142e20a</Id>
+              <NetId>2421</NetId>
+              <NetName>A SQN - 1 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>b327e48a-d7c1-4f87-a879-dec0604cd085</Id>
+              <NetId>2422</NetId>
+              <NetName>A SQN - 2 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>81a2e922-adb9-4b32-9da3-c160571d104d</Id>
+              <NetId>2423</NetId>
+              <NetName>A SQN - 3 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>196246e9-86fe-4f05-b996-d401734a4360</Id>
+              <NetId>2430</NetId>
+              <NetName>B SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>dc23afc7-e19f-419f-99a1-a6410027f641</Id>
+              <NetId>2431</NetId>
+              <NetName>B SQN - 1 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>a58ca073-88aa-4ae1-be16-b28f7db2ad3e</Id>
+              <NetId>2432</NetId>
+              <NetName>B SQN - 2 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>73322eb5-6244-4dc2-8fbd-5a1fcce99038</Id>
+              <NetId>2433</NetId>
+              <NetName>B SQN - 3 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>7f847fb8-e4b5-48b0-a7ac-468dff6f4592</Id>
+              <NetId>2440</NetId>
+              <NetName>C SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>6788076f-661e-42f8-89d2-d680812aaff4</Id>
+              <NetId>2441</NetId>
+              <NetName>C SQN - 1 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>4174252e-ae1c-432c-baa8-20ef7b5803c0</Id>
+              <NetId>2442</NetId>
+              <NetName>C SQN - 2 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>8ae4bf06-6493-4a16-b5c1-a695f3b7160c</Id>
+              <NetId>2443</NetId>
+              <NetName>C SQN - 3 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>8a78232f-bce8-432d-822b-4e8db6ac7522</Id>
+              <NetId>2444</NetId>
+              <NetName>C SQN - 4 TP</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>b9a60f18-3462-4044-ab24-e294662d472b</Id>
+          <Name>RCD</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>efb5521e-a8b5-46a7-b652-82c882e1b2a1</Id>
+              <NetId>2700</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>e8851b5d-cbe2-47a4-b9c7-e19fa6c09218</Id>
+              <NetId>2780</NetId>
+              <NetName>ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>842d7e6c-62b1-4850-9434-138e7a8ea4c1</Id>
+              <NetId>2730</NetId>
+              <NetName>23 FD SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>ac203f02-7f4e-4951-be00-a7af516b3572</Id>
+              <NetId>2740</NetId>
+              <NetName>24 FD SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>0f2827f4-8009-4165-8794-28c47229dc76</Id>
+              <NetId>2750</NetId>
+              <NetName>25 SP SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>b7f51787-994a-434a-9377-11cb53e68ff2</Id>
+              <NetId>2760</NetId>
+              <NetName>26 CIED SQN</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>9a141ad6-cb90-48e2-b8c9-880ccc76d40d</Id>
+          <Name>2 CER</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>f83b4ae5-dad7-4e3c-8315-300ff611f3e7</Id>
+              <NetId>2770</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>09f2dce7-388e-4173-8024-5ef3a892172a</Id>
+          <Name>2 MP PL</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>a4986263-7267-405d-9d22-2bd633386436</Id>
+              <NetId>2000</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>ea3f58d8-cf1d-46b8-a03f-7c7ea59bc5fd</Id>
+              <NetId>2010</NetId>
+              <NetName>A TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>95ba7a93-c642-4f81-891d-e4eb1ee6d027</Id>
+              <NetId>2020</NetId>
+              <NetName>B TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>f7b21458-e177-4f50-a57f-1e4a7e149a43</Id>
+              <NetId>2080</NetId>
+              <NetName>ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>48d03767-bdac-4ec4-a25b-e1a8d7acc2e2</Id>
+              <NetId>2990</NetId>
+              <NetName>HICON</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>40581e74-be7d-4eb4-9b90-97ce12b72800</Id>
+          <Name>HQ &amp; SIGS</Name>
+        </NIDDictionarySubGroup>
+      </SubGroups>
+    </NIDDictionaryGroup>
+    <NIDDictionaryGroup>
+      <GroupName>5 CMBG</GroupName>
+      <Id>a3952aa2-a00b-49fa-8fcf-d9fc2a71e72f</Id>
+      <SubGroups>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>60556c03-099e-4f16-8375-c5fd3e8a21e5</Id>
+              <NetId>5900</NetId>
+              <NetName>BDE COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>69401ba3-1761-44cd-b24e-5e0c39c8c468</Id>
+              <NetId>5980</NetId>
+              <NetName>BDE ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>2f08c5e2-7bd8-453d-8252-073f2d9d6bdb</Id>
+              <NetId>5910</NetId>
+              <NetName>COMD ALTN HF GD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>1c57842d-511d-4066-b7d3-f5a517761e58</Id>
+              <NetId>5920</NetId>
+              <NetName>ISTAR</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>6d950b5e-3ada-41f3-b72d-a2d84005da20</Id>
+              <NetId>5930</NetId>
+              <NetName>TARN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>307ce80f-10b6-48a0-952f-9f911befd333</Id>
+              <NetId>5940</NetId>
+              <NetName>ADM ALTN HF</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>29b7fd7e-ab89-4cd8-bab4-f21938f7a909</Id>
+              <NetId>5950</NetId>
+              <NetName>EW</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>76e88401-3b7c-4df0-b660-009d88d3b1e3</Id>
+              <NetId>5960</NetId>
+              <NetName>AD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>9882a6e2-399e-430f-ab2b-3dfc19522c4c</Id>
+              <NetId>5970</NetId>
+              <NetName>TTL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>2976f23d-9eaa-4793-8cd0-42d111e9465d</Id>
+              <NetId>5990</NetId>
+              <NetName>TTM</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>90828fdc-90c8-4a4c-bd91-9dc22501d12f</Id>
+          <Name>BDE NETS</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>4b05dcde-c14b-47e1-a68c-8d1aafdb2a4f</Id>
+              <NetId>5500</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>3453236d-d78c-46db-a3f2-4fd8b319d63d</Id>
+              <NetId>5580</NetId>
+              <NetName>ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>794b3534-5774-4de4-a4d4-cafc7831dee4</Id>
+              <NetId>5510</NetId>
+              <NetName>X BTY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>24ca7c07-f5f9-4190-9863-abb80e593507</Id>
+              <NetId>5520</NetId>
+              <NetName>Q BTY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>42d7ac26-10fc-453a-b754-a4e72864b37a</Id>
+              <NetId>5530</NetId>
+              <NetName>R BTY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>44e5d91c-62eb-4aac-a7d9-5a41eb9845cb</Id>
+              <NetId>5540</NetId>
+              <NetName>REGT RING</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>ddd64c6f-ae6d-4e33-8ead-9dd21cdf8393</Id>
+              <NetId>5550</NetId>
+              <NetName>REGT SVY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>0894e784-2fa8-4d36-bc95-3414586d4d53</Id>
+              <NetId>5560</NetId>
+              <NetName>X BTY GUN NET</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>a48908e8-6b9a-4906-9604-c2edb4af826e</Id>
+              <NetId>5570</NetId>
+              <NetName>Q BTY GUN NET</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>1bfde69a-9bdc-4deb-b01a-236e91c98d22</Id>
+              <NetId>5590</NetId>
+              <NetName>R BTY GUN NET</NetName>
+            </NIDDictionaryEntry>
+	         </Entries>
+          <Id>13027bd0-97cb-48f0-84eb-a14b8ba1d64e</Id>
+          <Name>5 RALC</Name>
+        </NIDDictionarySubGroup>
+		 <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>42372c7a-8aec-4daf-b3bd-f606567690ee</Id>
+              <NetId>5800</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>b9ce173f-6062-41a0-bbd1-a61ec56b23c9</Id>
+              <NetId>5810</NetId>
+              <NetName>SandT COY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>01646fa5-378c-4eb5-be5f-9c7ef036330b</Id>
+              <NetId>5820</NetId>
+              <NetName>DP NET</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>a421f4bf-52ff-43dc-b166-a497834ce171</Id>
+              <NetId>5830</NetId>
+              <NetName>MAINT COY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>e92ac2db-f951-43c9-94ed-dfee6eee09c4</Id>
+              <NetId>5840</NetId>
+              <NetName>FLG 1</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>6b8f2cb5-f972-483a-bfca-f2d3f5552bf0</Id>
+              <NetId>5880</NetId>
+              <NetName>SP COY</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>859e2967-6b19-413a-a8b9-f98b5554115a</Id>
+          <Name>5 BN S Du C</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>3556ae1d-8975-4d00-965c-38423ab4abb8</Id>
+              <NetId>5860</NetId>
+              <NetName>SQN COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>cf2fcd6f-1653-4a5b-a481-a6b0c37d4130</Id>
+              <NetId>5870</NetId>
+              <NetName>SQN EVAC</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>0ceffd7a-e367-4b73-899a-239b3f0046bc</Id>
+              <NetId>5890</NetId>
+              <NetName>AMB</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>709bb3cf-6feb-41da-9d34-fcc59cea02ff</Id>
+              <NetId>5010</NetId>
+              <NetName>SQN SANITAIRE</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>df997d26-73b1-4aba-bab2-60bc2a9543d7</Id>
+              <NetId>5020</NetId>
+              <NetName>SQN SP</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>4176c67c-fec4-459f-8555-cdd1e9ee692d</Id>
+          <Name>5 AMB De C</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>c03ee39e-c094-47fa-928c-3fb080f69f0e</Id>
+              <NetId>5850</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>49e21ad8-802e-4e03-afbf-46e7d422fd0f</Id>
+          <Name>5 PPM</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>aa94a4a3-72d2-4213-9dfb-ebea49a66508</Id>
+              <NetId>5100</NetId>
+              <NetName>BN COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>fc71b58c-fed4-42c7-a821-613201bad52e</Id>
+              <NetId>5180</NetId>
+              <NetName>BN ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>dce6da6c-bf34-4ed9-8ebd-6a3d6fbc13a1</Id>
+              <NetId>5110</NetId>
+              <NetName>A COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>8a7e8f26-b662-49af-bfdf-48551b847f37</Id>
+              <NetId>5120</NetId>
+              <NetName>B COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>4e8fb45f-0669-48f7-bb71-3d1b19c0db38</Id>
+              <NetId>5130</NetId>
+              <NetName>C COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>6a0f2cf1-2754-420b-aa5e-e64eeb51f98c</Id>
+              <NetId>5160</NetId>
+              <NetName>RECCE PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>84777513-3af0-408d-8ae3-93db5f677373</Id>
+              <NetId>5170</NetId>
+              <NetName>AA PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>16751482-2766-4190-99bb-549d6bc686bf</Id>
+              <NetId>5190</NetId>
+              <NetName>BN COMD ALTN HF</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>302f83d5-6acf-40ef-b8d8-890523b253bf</Id>
+          <Name>1 R22eR</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>2a582c0d-dbe3-42f9-82e5-62a5bf19faf2</Id>
+              <NetId>5200</NetId>
+              <NetName>BN COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>c29db7ae-6f70-4dbd-8627-39c02ae31a20</Id>
+              <NetId>5280</NetId>
+              <NetName>BN ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>a0d93164-e894-4fa2-b318-87bc45a4b11a</Id>
+              <NetId>5210</NetId>
+              <NetName>A COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>c4355418-84a8-4e1f-bfd0-181405c805c0</Id>
+              <NetId>5220</NetId>
+              <NetName>B COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>eaef061e-6f37-45ff-8511-b00a47b33828</Id>
+              <NetId>5230</NetId>
+              <NetName>C COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>80745a37-b04e-45bd-9803-8ed9c39b0f40</Id>
+              <NetId>5260</NetId>
+              <NetName>AA PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>67ba650f-72a0-46eb-b314-2aceb82ab5b9</Id>
+              <NetId>5270</NetId>
+              <NetName>RECCE PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>7de12ed3-ac36-472d-ad8d-1c64c192eaf5</Id>
+              <NetId>5290</NetId>
+              <NetName>BN COMD ALTN HF</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>a04f2946-523e-4d70-810c-44ebde58b4c4</Id>
+          <Name>2 R22eR</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>aaafb541-77e1-4187-8345-9719fb3c66ff</Id>
+              <NetId>5300</NetId>
+              <NetName>BN COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>79223746-c910-45a8-a221-0f0db0a53fe4</Id>
+              <NetId>5380</NetId>
+              <NetName>BN ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>5c44f8d3-ecf1-45e1-a4a7-30c309eafc20</Id>
+              <NetId>5310</NetId>
+              <NetName>A COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>d6c6f5dd-65f9-4139-8460-0111ed10d61b</Id>
+              <NetId>5320</NetId>
+              <NetName>B COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>5b068a96-a545-4014-805e-0e16193acae3</Id>
+              <NetId>5330</NetId>
+              <NetName>C COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>ecbb8374-806e-44f6-b885-617798195d3a</Id>
+              <NetId>5360</NetId>
+              <NetName>AA PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>86eaee88-a9e3-4624-b684-bd741917813a</Id>
+              <NetId>5370</NetId>
+              <NetName>RECCE PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>abb84c4e-bf2e-4729-b4a8-232af6d57f13</Id>
+              <NetId>5390</NetId>
+              <NetName>BN COMD ALTN HF</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>c558b295-2776-4f88-b4f3-3b4c44347b43</Id>
+          <Name>3 R22eR</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>bf68cc4a-ff5c-4a6c-a4b9-e2393b00c763</Id>
+              <NetId>5700</NetId>
+              <NetName>REGT COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>eceff080-8c14-483b-a658-ccaa3878b60a</Id>
+              <NetId>5780</NetId>
+              <NetName>REGT ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>dcc8def7-bf7f-44db-8b91-17d3293949cc</Id>
+              <NetId>5710</NetId>
+              <NetName>51 FD SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>24c6d7af-1362-4afa-9fed-b7bf3db15988</Id>
+              <NetId>5720</NetId>
+              <NetName>52 FD SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>cad2f512-dc16-4ff4-929b-9fd8ee24409c</Id>
+              <NetId>5730</NetId>
+              <NetName>53 FD SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>9d5d56b0-2e9c-4267-898d-5e988b8831f2</Id>
+              <NetId>5750</NetId>
+              <NetName>55 SP SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>0fa072d5-84c5-4e02-92f0-d9df1168dcfa</Id>
+              <NetId>5790</NetId>
+              <NetName>SQN COMD ALTN HF</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>c1c12efd-e1e8-42c6-a68a-478a6e0e9baa</Id>
+          <Name>5 RGC</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>43dd9d51-84c9-4191-bd8d-c0c497a1acd2</Id>
+              <NetId>4000</NetId>
+              <NetName>SQN COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>2fbcc99f-8505-4ad2-a9ff-56d64a4d5a8d</Id>
+              <NetId>4010</NetId>
+              <NetName>A FLT VHF</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>8bcc422b-4d3b-4a8d-98d7-d3a794939d5b</Id>
+              <NetId>4020</NetId>
+              <NetName>A FLT UHF</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>fa443a31-2e53-4b70-ac96-4fd386e5b916</Id>
+              <NetId>4030</NetId>
+              <NetName>A FLT HF</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>b00f571c-6e56-4646-a576-e9ca70a7331e</Id>
+              <NetId>4040</NetId>
+              <NetName>B FLT VHF</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>0547bee9-e123-4bf5-beb2-b57116f7c1aa</Id>
+              <NetId>4050</NetId>
+              <NetName>B FLT UHF</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>5557ec2b-8eff-45e4-9ec0-1fcf955da53e</Id>
+              <NetId>4060</NetId>
+              <NetName>B FLT HF</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>6d25c86e-d640-43d3-8ace-18656b83f8c2</Id>
+          <Name>430 THS (SQFT)</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>829505fd-eccc-4147-a774-8f6c1d46c3b2</Id>
+              <NetId>5400</NetId>
+              <NetName>REGT COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>131d06a4-84cd-43c5-9495-9af319929582</Id>
+              <NetId>5410</NetId>
+              <NetName>A SQN COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>7a0af02f-75d2-43f2-926e-9b907f8d3d1e</Id>
+              <NetId>5411</NetId>
+              <NetName>A SQN - 1 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>52ddb8a7-cfad-4d26-adab-cd43887b6968</Id>
+              <NetId>5412</NetId>
+              <NetName>A SQN - 2 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>0a729ebb-723b-4181-81b4-b51dabeb554a</Id>
+              <NetId>5413</NetId>
+              <NetName>A SQN - 3 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>579048f7-58ed-4398-8fb1-da2d4bc8d555</Id>
+              <NetId>5420</NetId>
+              <NetName>B SQN COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>96321dc5-5d44-4995-ba08-408b6bc02b39</Id>
+              <NetId>5421</NetId>
+              <NetName>B SQN - 1 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>91624d5a-b747-42ff-bf09-977730682dbe</Id>
+              <NetId>5422</NetId>
+              <NetName>B SQN - 2 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>394edd13-d0bf-4d1b-832f-daed0e5351d4</Id>
+              <NetId>5423</NetId>
+              <NetName>B SQN - 3 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>ce2c4275-79dd-40d3-88b7-4edc0940174c</Id>
+              <NetId>5430</NetId>
+              <NetName>D SQN COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>98a3c1bb-1305-4a0b-80c3-a9068abc60f7</Id>
+              <NetId>5431</NetId>
+              <NetName>D SQN - 1 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>86f6747d-cf61-45b2-8c63-7e0c3fd99296</Id>
+              <NetId>5432</NetId>
+              <NetName>D SQN - 2 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>4f606095-5b83-422f-8618-fe3cfb5b3509</Id>
+              <NetId>5433</NetId>
+              <NetName>D SQN - 3 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>784c1b6a-530d-4ab9-ab91-2174b8ce3501</Id>
+              <NetId>5440</NetId>
+              <NetName>REGT RECCE TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>86ddf150-db0d-48c9-b154-7660f776d6db</Id>
+              <NetId>5470</NetId>
+              <NetName>PRA</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>70d3d724-eab1-4075-8dd0-19e8123b80c9</Id>
+              <NetId>5480</NetId>
+              <NetName>REGT ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>43203f12-c081-4cbb-8c03-e648848d90a1</Id>
+              <NetId>5490</NetId>
+              <NetName>REGT COMD ALTN HF</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>544e74e4-2c05-44d6-90de-a990956e8339</Id>
+              <NetId>5600</NetId>
+              <NetName>D (RECCE) SQN COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>26f2190f-ef00-4c23-b551-f18613f1cdda</Id>
+              <NetId>5610</NetId>
+              <NetName>1 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>56e0db0f-9437-4f4f-8548-a49b697e62aa</Id>
+              <NetId>5620</NetId>
+              <NetName>2 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>a9f40320-f36a-411e-bb05-724373b80283</Id>
+              <NetId>5630</NetId>
+              <NetName>3 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>163dde23-c112-4451-87fa-c3d7b5c5b715</Id>
+              <NetId>5640</NetId>
+              <NetName>4 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>c6e0bd08-ecd0-45b8-abff-7a6ced04defe</Id>
+              <NetId>5680</NetId>
+              <NetName>D SQN ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>62b111ce-cefb-4867-97e5-cffe0def4fdd</Id>
+              <NetId>5460</NetId>
+              <NetName>D SQN COMD ALTN HF</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>87ac618d-3109-487b-bb10-32e9b448619d</Id>
+          <Name>12 RBC</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>8e0e7cd9-2735-4e29-a26d-5c1c7c2b7319</Id>
+              <NetId>5000</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>bc01fdf1-e918-406b-a8d7-3941a6375689</Id>
+              <NetId>5080</NetId>
+              <NetName>ADM</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>d582205e-c3b3-45cf-bfb2-a0f59d6613d3</Id>
+          <Name>QGET</Name>
+        </NIDDictionarySubGroup>
+      </SubGroups>
+    </NIDDictionaryGroup>
+    <NIDDictionaryGroup>
+      <GroupName>RANGE CTL</GroupName>
+      <Id>7b7f9aca-b46d-485a-95fb-05d66f1123fa</Id>
+      <SubGroups>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>f2e39800-f917-4a31-a74d-cf03d74c96b1</Id>
+              <NetId>9100</NetId>
+              <NetName>SAFETY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>c9504f04-476a-4055-bb95-dca294cc98b0</Id>
+              <NetId>9110</NetId>
+              <NetName>SAFETY (ALT)</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>dfb4657d-bdc8-4bd9-9db4-77f1346cde18</Id>
+              <NetId>9120</NetId>
+              <NetName>MEDIVAC</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>3342da91-f3c6-4e0a-a71e-2e43d4da2d73</Id>
+          <Name>RANGE CTL NETS</Name>
+        </NIDDictionarySubGroup>
+      </SubGroups>
+    </NIDDictionaryGroup>
+    <NIDDictionaryGroup>
+      <GroupName>4 CMBG</GroupName>
+      <Id>c24dc47e-35bc-4a52-9856-b3ee8d9df4ed</Id>
+      <SubGroups>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>92f45892-ba56-4641-a61a-fbab86a7af00</Id>
+              <NetId>8900</NetId>
+              <NetName>BDE COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>7f8b44f7-1fd2-47cb-9b09-d5fe2cd06d64</Id>
+              <NetId>8980</NetId>
+              <NetName>BDE ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>8f2e40e2-f2ab-4f4c-ae49-40786caf5125</Id>
+              <NetId>8910</NetId>
+              <NetName>BDE TAD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>2309fd8e-944f-4868-b164-a9ee5878005a</Id>
+              <NetId>8920</NetId>
+              <NetName>BDE INT</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>e6e02253-0cc4-4ff0-a758-c8600931fa37</Id>
+              <NetId>8930</NetId>
+              <NetName>BDE TARN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>38a5fe50-5ce0-4720-9576-fd2116b7f1fd</Id>
+              <NetId>8960</NetId>
+              <NetName>4 CMBG GD</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>14146638-83f4-4bd4-8d03-7d1e573e3878</Id>
+          <Name>BDE NETS</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>bfdfe84e-05a1-4f9b-8ac3-0b46d11ed969</Id>
+              <NetId>8500</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>2c1133d7-bfb5-4a34-b440-41468c17d8f7</Id>
+              <NetId>8580</NetId>
+              <NetName>ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>c9cf1c3e-6e62-4878-912b-3ab9fbe9c142</Id>
+              <NetId>8510</NetId>
+              <NetName>A BTY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>27ac1feb-4f2e-43c7-a7d1-19f2ef9fccdc</Id>
+              <NetId>8520</NetId>
+              <NetName>B BTY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>cb9ef750-6ae3-4d93-82c1-e1834e43adf2</Id>
+              <NetId>8530</NetId>
+              <NetName>C BTY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>bc06192c-ed5c-4081-9ae2-3466c98c194d</Id>
+              <NetId>8540</NetId>
+              <NetName>RING</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>76e29c5b-05a6-4755-b52f-3406e6723f31</Id>
+              <NetId>8550</NetId>
+              <NetName>SVY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>dda1f691-aa57-45f8-8141-8f717dc14f8a</Id>
+              <NetId>8560</NetId>
+              <NetName>A BTY GUN NET</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>c9dd5c04-a834-4398-8108-085c95bf70df</Id>
+              <NetId>8570</NetId>
+              <NetName>B BTY GUN NET</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>0cf85531-88d0-4579-a2e8-ba89b8b10335</Id>
+              <NetId>8590</NetId>
+              <NetName>C BTY GUN NET</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>f16461dc-820a-4186-836a-977cf3133d88</Id>
+          <Name>4 RCHA</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>fb9918ce-6576-46bf-9519-489b9901b030</Id>
+              <NetId>8800</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>d9bbb96f-8bb2-443c-b12d-6d69240d8403</Id>
+              <NetId>8810</NetId>
+              <NetName>S&amp;T COY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>73eebbf5-97ea-42bc-8531-f5e8d2bd05a4</Id>
+              <NetId>8820</NetId>
+              <NetName>EN FORCE</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>095aa7ab-a637-4768-8bee-710225808ce1</Id>
+              <NetId>8830</NetId>
+              <NetName>MAINT COY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>291788b6-24dd-4e5c-80be-4e9c457308af</Id>
+              <NetId>8840</NetId>
+              <NetName>FLG 1</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>c336faf1-b0f8-425c-b3c8-17bb9a688860</Id>
+              <NetId>8850</NetId>
+              <NetName>FLG 2</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>8d8aed17-e50a-46f1-a02f-4e97a67fc8c4</Id>
+              <NetId>8880</NetId>
+              <NetName>ADM COY</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>0949c9f5-fa25-485a-9daf-0c96e4bbc597</Id>
+          <Name>4 SVC BN</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>e10d1def-ce89-42a4-918d-f6b764586f74</Id>
+              <NetId>8860</NetId>
+              <NetName>SQN COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>6fb28644-e1b7-4375-8dcd-aff7bde8dca4</Id>
+              <NetId>8870</NetId>
+              <NetName>SQN ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>6d9d4ef3-9dda-4a46-8af0-6a0b2aea2d00</Id>
+              <NetId>8890</NetId>
+              <NetName>SQN EVAC</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>c75f67ea-5265-43d4-be6e-257c276a78eb</Id>
+          <Name>4 FD AMB</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>4d072840-5774-48d2-a0e4-a350481ca293</Id>
+              <NetId>8100</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>5389b526-d959-404e-82a3-d2a9739814ff</Id>
+              <NetId>8180</NetId>
+              <NetName>ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>36cf7aa2-abfc-419e-983f-5c546ff4bb2e</Id>
+              <NetId>8110</NetId>
+              <NetName>A COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>7b274d87-8267-4c38-a8ec-4326c08ff103</Id>
+              <NetId>8111</NetId>
+              <NetName>A COY 1 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>66d14023-dfe8-4c88-99a1-78f6c550f66f</Id>
+              <NetId>8112</NetId>
+              <NetName>A COY 2 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>749e9bcc-f934-42d5-ae9b-a8100a2f27a0</Id>
+              <NetId>8113</NetId>
+              <NetName>A COY 3 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>7b7d10d8-561c-4dd3-9ca2-76d2c75d1946</Id>
+              <NetId>8120</NetId>
+              <NetName>B COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>940cd9db-38b4-42f4-b344-2bb7dc776880</Id>
+              <NetId>8121</NetId>
+              <NetName>B COY 1 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>1be84705-1a91-4528-8a6b-e02e9070ede0</Id>
+              <NetId>8122</NetId>
+              <NetName>B COY 2 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>cee22a11-6c65-4b8c-b6fa-bd0dd69d11ca</Id>
+              <NetId>8123</NetId>
+              <NetName>B COY 3 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>2ede15f7-e334-4fff-aeb6-9ad74003f804</Id>
+              <NetId>8130</NetId>
+              <NetName>C COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>d417b1b9-51be-4e74-b73c-ce2ff78ffcab</Id>
+              <NetId>8131</NetId>
+              <NetName>C COY 1 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>6b44c2cf-fe21-4cc0-a441-503b5551795b</Id>
+              <NetId>8132</NetId>
+              <NetName>C COY 2 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>10760f72-7492-46f6-a5ea-bbc272258c22</Id>
+              <NetId>8133</NetId>
+              <NetName>C COY 3 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>2840cd93-e0b8-483b-9985-2d8ff2bb81e2</Id>
+              <NetId>8140</NetId>
+              <NetName>SNIPER SECTION</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>75318049-3841-41bd-a93d-e6804915dd78</Id>
+              <NetId>8150</NetId>
+              <NetName>MORTAR PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>905a0503-2e17-4420-b981-595c9e0c2a31</Id>
+              <NetId>8160</NetId>
+              <NetName>RECCE PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>ae6ca0e2-6785-4091-985b-a38f50019568</Id>
+              <NetId>8170</NetId>
+              <NetName>AA PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>6d74b3b6-6394-4b26-82bf-c3890e810d7a</Id>
+              <NetId>8190</NetId>
+              <NetName>PNR PL</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>fbad7a9f-9d28-494c-b5de-e9de02bb10ec</Id>
+          <Name>4 PPCLI</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>8ed9ca48-bf17-4f76-9570-686bbfaf3bb6</Id>
+              <NetId>8200</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>1178d092-a5d7-493e-8294-fa54ca088830</Id>
+              <NetId>8280</NetId>
+              <NetName>ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>74d184dd-1aab-4d31-9550-dac87de17a9c</Id>
+              <NetId>8210</NetId>
+              <NetName>A COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>e2852326-9e26-4ff5-b477-0faf688bb126</Id>
+              <NetId>8211</NetId>
+              <NetName>A COY 1 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>3572796e-42d2-4563-a9b3-baa4f684870a</Id>
+              <NetId>8212</NetId>
+              <NetName>A COY 2 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>5b38a28a-7581-4f3d-923a-5844a5ac3fae</Id>
+              <NetId>8213</NetId>
+              <NetName>A COY 3 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>3acc9f5a-b2c2-48c3-9cc9-6f155eeca51b</Id>
+              <NetId>8220</NetId>
+              <NetName>B COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>c621c19a-17ca-41de-9f0b-3905cf4b75af</Id>
+              <NetId>8221</NetId>
+              <NetName>B COY 1 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>443a7567-612b-4a05-9886-e8fc793240ca</Id>
+              <NetId>8222</NetId>
+              <NetName>B COY 2 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>c5331427-1303-433c-8ad4-085ca2560967</Id>
+              <NetId>8223</NetId>
+              <NetName>B COY 3 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>242dfd7e-e3b8-470a-aeb4-35e671186568</Id>
+              <NetId>8230</NetId>
+              <NetName>C COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>ce8e6880-4e31-4ab6-9602-eb159a44e4af</Id>
+              <NetId>8231</NetId>
+              <NetName>C COY 1 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>d5007877-b02e-4f1f-9987-08bc78d42571</Id>
+              <NetId>8232</NetId>
+              <NetName>C COY 2 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>aabb166a-d7f9-46af-8dc3-5454221bdbb3</Id>
+              <NetId>8233</NetId>
+              <NetName>C COY 3 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>223fe2b3-f4ab-43f3-8bfe-2888cd185766</Id>
+              <NetId>8240</NetId>
+              <NetName>FIRE CONTROL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>ebd89e84-c13c-4807-b55b-948eba49fefb</Id>
+              <NetId>8250</NetId>
+              <NetName>MORTAR PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>f0d47892-38fd-4bed-9cd2-b8fa132bb36c</Id>
+              <NetId>8260</NetId>
+              <NetName>RECCE PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>b8e36acc-9ee4-447c-907c-6734eed9ed1e</Id>
+              <NetId>8270</NetId>
+              <NetName>AA PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>1e0b0853-4dab-4dac-bbdb-25ca094b3406</Id>
+              <NetId>8290</NetId>
+              <NetName>PNR PL</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>f6afa9a6-9048-4a46-b9b2-bc315b66a69a</Id>
+          <Name>4 R22ER</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>7319fc0e-7b5d-46ef-9fa1-5a2d6b187264</Id>
+              <NetId>8300</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>a00a75f6-f0b4-4613-aaaa-1b3588033580</Id>
+              <NetId>8380</NetId>
+              <NetName>ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>039e5ef5-de13-4206-a2c3-ca17c892dad1</Id>
+              <NetId>8310</NetId>
+              <NetName>A COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>1f6d2be4-b3a1-400b-a058-e2aaa38eeb59</Id>
+              <NetId>8311</NetId>
+              <NetName>A COY 1 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>42c4deb3-3d32-46c5-9027-ed43e04c52c1</Id>
+              <NetId>8312</NetId>
+              <NetName>A COY 2 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>742b6d8f-26c8-48bc-aaf2-37258b6cc83b</Id>
+              <NetId>8313</NetId>
+              <NetName>A COY 3 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>ebcd8d87-bf0f-4fda-9022-ef822fbd9dfa</Id>
+              <NetId>8320</NetId>
+              <NetName>B COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>a2bdd5a0-7969-44f0-8b04-7226100494e9</Id>
+              <NetId>8321</NetId>
+              <NetName>B COY 1 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>147532f0-5a0a-4062-8b5b-e52de75d27a2</Id>
+              <NetId>8322</NetId>
+              <NetName>B COY 2 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>75a505fd-a401-4d74-9e0e-623734a2b2c0</Id>
+              <NetId>8323</NetId>
+              <NetName>B COY 3 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>309b506d-264d-430a-a219-4988dd40eba7</Id>
+              <NetId>8330</NetId>
+              <NetName>C COY COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>934ac9eb-e376-44f1-a3fc-e43fd825d99d</Id>
+              <NetId>8331</NetId>
+              <NetName>C COY 1 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>c6df35c4-c5c9-47db-b0d1-fd51276a71b0</Id>
+              <NetId>8332</NetId>
+              <NetName>C COY 2 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>6d2c90df-972d-42bb-8c18-61ed3710e4ed</Id>
+              <NetId>8333</NetId>
+              <NetName>C COY 3 PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>7905f495-f07e-4aba-9516-2ef85d921d43</Id>
+              <NetId>8340</NetId>
+              <NetName>AA PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>cc4470fa-9edc-4676-aa08-5bcc689f35fa</Id>
+              <NetId>8350</NetId>
+              <NetName>MORTAL PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>f9ffe6df-3915-493a-aa7e-2d030eba5a92</Id>
+              <NetId>8360</NetId>
+              <NetName>PARA COY</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>e4d9ac7a-b878-464b-b2ce-79119f804541</Id>
+              <NetId>8370</NetId>
+              <NetName>PNR PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>57619b24-28a6-41af-afa2-7d0f7ab94dde</Id>
+              <NetId>8390</NetId>
+              <NetName>RECCE PL</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>d4442541-bd4b-460d-874b-44c999355fe9</Id>
+              <NetId>8940</NetId>
+              <NetName>UHF DZ CTL &amp; FIRE NET</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>b8cd6ad5-a111-4c07-8a98-31cb84630da8</Id>
+              <NetId>8950</NetId>
+              <NetName>(HF) REAR LINK DZ &amp; RECCE</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>b8914457-0a9d-4934-812b-36dc1c82485e</Id>
+          <Name>4 RCR</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>ce509e36-35b6-43b1-95da-85388a3a707c</Id>
+              <NetId>8700</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>c3deb619-50a8-4196-aa22-df3fcfb46970</Id>
+              <NetId>8780</NetId>
+              <NetName>ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>af6d342a-6c4e-4361-9285-7c72d4592f60</Id>
+              <NetId>8710</NetId>
+              <NetName>23 FD SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>512101e9-f755-41c4-ab3e-6ccf8e89f56f</Id>
+              <NetId>8720</NetId>
+              <NetName>24 FD SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>d34437fe-df78-4db2-be3a-1e47f9a1ed27</Id>
+              <NetId>8730</NetId>
+              <NetName>25 SP SQN</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>03fea248-e3e6-46d8-aa73-56911831067d</Id>
+          <Name>4 CER</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>b96bf9f9-b136-4e5d-8bf6-eec0fef15d00</Id>
+              <NetId>8770</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>9ac3add8-bff8-4578-8e48-b4ad026ff9ba</Id>
+          <Name>4 MP PL</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>0e31952f-6d64-43cc-a983-9d020d43ce7d</Id>
+              <NetId>8400</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>115704b0-5538-44b1-9d76-ae99e6506bb6</Id>
+              <NetId>8480</NetId>
+              <NetName>ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>b2be4d66-dc0f-48f4-b3c4-22bcd08b4bbf</Id>
+              <NetId>8410</NetId>
+              <NetName>HQ SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>71c735ef-6882-44b8-8cc0-6205b9c69174</Id>
+              <NetId>8420</NetId>
+              <NetName>A SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>0da26d20-0177-4323-8eb0-b8747d860a82</Id>
+              <NetId>8421</NetId>
+              <NetName>A SQN - 1 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>18daae05-d063-4bd2-a2c2-eb8b70b1fb3a</Id>
+              <NetId>8422</NetId>
+              <NetName>A SQN - 2 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>2d9f5e25-e18f-423b-8d3f-ce08fea132a0</Id>
+              <NetId>8423</NetId>
+              <NetName>A SQN - 3 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>bc005c41-120a-47ec-afd3-fb0cbbd1de2d</Id>
+              <NetId>8430</NetId>
+              <NetName>B SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>4535fd85-9f62-45c8-8310-c3e3f62e87db</Id>
+              <NetId>8431</NetId>
+              <NetName>B SQN - 1 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>552f7aaf-6543-4c83-b813-e1fb9796f279</Id>
+              <NetId>8432</NetId>
+              <NetName>B SQN - 2 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>df232e06-7842-4c39-a055-4832fedba867</Id>
+              <NetId>8433</NetId>
+              <NetName>B SQN - 3 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>c688f0bb-289b-4922-9a85-d33174d63b46</Id>
+              <NetId>8460</NetId>
+              <NetName>RECCE SQN</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>d1f82686-90aa-43b3-bcd0-0dcb2c864eb6</Id>
+              <NetId>8461</NetId>
+              <NetName>RECCE SQN - 1 TP</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>e1eb2630-3169-48ca-a37d-a2dd889cd1e3</Id>
+              <NetId>8462</NetId>
+              <NetName>RECCE SQN - 2 TP</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>e2646d8e-95e9-4168-ba64-e47c13892e73</Id>
+          <Name>4ARMD</Name>
+        </NIDDictionarySubGroup>
+        <NIDDictionarySubGroup>
+          <Entries>
+            <NIDDictionaryEntry>
+              <Id>e7bdb255-a3ed-42e7-ba35-183f2a50578b</Id>
+              <NetId>8000</NetId>
+              <NetName>COMD</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>7a083b3a-f15d-4de4-9b5d-d68d845de8c8</Id>
+              <NetId>8080</NetId>
+              <NetName>ADM</NetName>
+            </NIDDictionaryEntry>
+            <NIDDictionaryEntry>
+              <Id>a080b780-f1c8-4304-916b-3f68a55d32e7</Id>
+              <NetId>8990</NetId>
+              <NetName>EXCON</NetName>
+            </NIDDictionaryEntry>
+          </Entries>
+          <Id>141c5bfe-daff-4e77-ba11-6220eba4daad</Id>
+          <Name>4 CMBG HQ &amp; SIGS</Name>
+        </NIDDictionarySubGroup>
+      </SubGroups>
+    </NIDDictionaryGroup>
+  </Groups>
+  <Name>RegForce NID V2.9 (Default)</Name>
+  <Version>2.9</Version>
+  <XsdVersion>1.2</XsdVersion>
+</NIDDictionary>

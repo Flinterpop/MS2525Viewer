@@ -1,0 +1,30 @@
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilSymbolPicker\obj\Release\MilSymbolPicker.csprojResolveAssemblyReference.cache
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilSymbolPicker\obj\Release\MilSymbolPicker.FormPicker.resources
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilSymbolPicker\obj\Release\MilSymbolPicker.csproj.GenerateResource.Cache
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilSymbolPicker\bin\Release\Data\LegacyMappingTableCtoD.csv
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilSymbolPicker\bin\Release\Data\All_Entities.csv
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilSymbolPicker\bin\Release\Data\All_Modifiers.csv
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilSymbolPicker\bin\Release\MilSymbolPicker.exe.config
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilSymbolPicker\bin\Release\MilSymbolPicker.exe
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilSymbolPicker\bin\Release\MilSymbolPicker.pdb
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilSymbolPicker\bin\Release\MilitarySymbols.dll
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilSymbolPicker\bin\Release\Svg.dll
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilSymbolPicker\bin\Release\MilitarySymbols.pdb
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilSymbolPicker\obj\Release\MilSymbolPicker.Properties.Resources.resources
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilSymbolPicker\obj\Release\MilSymbolPicker.exe
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\MS2525SIDCViewer\MilSymbolPicker\obj\Release\MilSymbolPicker.pdb
+D:\GITRepos\reposSource\ms2525sidcviewer\MilSymbolPicker\bin\Release\MilSymbolPicker.exe.config
+D:\GITRepos\reposSource\ms2525sidcviewer\MilSymbolPicker\obj\Release\MilSymbolPicker.exe
+D:\GITRepos\reposSource\ms2525sidcviewer\MilSymbolPicker\obj\Release\MilSymbolPicker.pdb
+D:\GITRepos\reposSource\ms2525sidcviewer\MilSymbolPicker\bin\Release\Data\LegacyMappingTableCtoD.csv
+D:\GITRepos\reposSource\ms2525sidcviewer\MilSymbolPicker\bin\Release\Data\All_Entities.csv
+D:\GITRepos\reposSource\ms2525sidcviewer\MilSymbolPicker\bin\Release\Data\All_Modifiers.csv
+D:\GITRepos\reposSource\ms2525sidcviewer\MilSymbolPicker\bin\Release\MilSymbolPicker.exe
+D:\GITRepos\reposSource\ms2525sidcviewer\MilSymbolPicker\bin\Release\MilSymbolPicker.pdb
+D:\GITRepos\reposSource\ms2525sidcviewer\MilSymbolPicker\bin\Release\MilitarySymbols.dll
+D:\GITRepos\reposSource\ms2525sidcviewer\MilSymbolPicker\bin\Release\Svg.dll
+D:\GITRepos\reposSource\ms2525sidcviewer\MilSymbolPicker\bin\Release\MilitarySymbols.pdb
+D:\GITRepos\reposSource\ms2525sidcviewer\MilSymbolPicker\obj\Release\MilSymbolPicker.csprojResolveAssemblyReference.cache
+D:\GITRepos\reposSource\ms2525sidcviewer\MilSymbolPicker\obj\Release\MilSymbolPicker.FormPicker.resources
+D:\GITRepos\reposSource\ms2525sidcviewer\MilSymbolPicker\obj\Release\MilSymbolPicker.Properties.Resources.resources
+D:\GITRepos\reposSource\ms2525sidcviewer\MilSymbolPicker\obj\Release\MilSymbolPicker.csproj.GenerateResource.Cache
