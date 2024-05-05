@@ -459,5 +459,59 @@ namespace MilSymbolPicker
             parseSVG(@"0_330_0tweaked.xml");
             //parseSVG("SIDC.xml");
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            tbSIDC_5.Text = listBox1.Text;
+        }
+
+        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            tbSIDC_6.Text = listBox2.Text;
+        }
+
+        private void listBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            tbSIDC_7.Text = listBox3.Text;
+        }
+
+        private void listBox4_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            tbSIDC_8.Text = listBox4.Text;
+        }
+
+        private void listBox5_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            tbSIDC_9.Text = listBox5.Text;
+        }
+
+        private void listBox6_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            tbSIDC_10.Text = listBox6.Text;
+        }
+
+        private void listBox7_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            tbSIDC_11.Text = listBox7.Text;
+        }
+
+        private void listBox8_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            tbSIDC_12.Text = listBox8.Text;
+        }
+
+        private void listBox9_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            tb_SVG.AppendText("WTF");
+            String s11 = listBox9.Text;
+            tb_SVG.AppendText(s11+"\r\n");
+            string res = s11.Substring(0, 1);
+            tbSIDC_11.Text = res;
+            tb_SVG.AppendText(res+"\r\n");
+            res = s11.Substring(1, 1);  
+
+            tbSIDC_12.Text = res;
+            tb_SVG.AppendText(res + "\r\n");
+        }
     }
 }
