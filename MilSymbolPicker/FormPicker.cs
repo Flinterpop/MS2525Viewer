@@ -134,19 +134,16 @@ namespace MilSymbolPicker
 
         private void BuildSVG()
         {
-            if (!currentSymbol.Id.IsValid)
-                return;
+            if (!currentSymbol.Id.IsValid) return;
 
             tb_SVG.Clear();
             foreach (string graphicLayer in currentSymbol.GraphicLayers)
             {
-                //tb_SVG.AppendText(graphicLayer + "\r\n");
                 if (!System.IO.File.Exists(graphicLayer))
                 {
                     tb_SVG.AppendText("File not found\r\n");
                     continue;
                 }
-
                 parseSVG(graphicLayer);
             }
         }
@@ -154,7 +151,6 @@ namespace MilSymbolPicker
 
         private void parseSVG(string fName)
         {
-
             tb_SVG.AppendText(System.AppDomain.CurrentDomain.BaseDirectory+"\r\n");
             if (!System.IO.File.Exists(fName))
             {
@@ -172,16 +168,7 @@ namespace MilSymbolPicker
                 foreach (XElement author in authors)
                     tb_SVG.AppendText((string)author);
             }
-
-
-            //tb_SVG.AppendText(allData.ToString());
-
-
         }
-
-
-
-
 
 
         private void setTagLabel()
@@ -203,8 +190,7 @@ namespace MilSymbolPicker
    
         private void pbSymbolImage_Click(object sender, EventArgs e)
         {
-            if (this.pbSymbolImage2.Image == null)
-                return;
+            if (this.pbSymbolImage2.Image == null) return;
 
             // Easter Egg : save image file on click
             SaveFileDialog saveImageFile = new SaveFileDialog();
@@ -268,8 +254,7 @@ namespace MilSymbolPicker
                 if (!convertSuccess)
                 {
                     tb_Invalid.BackColor = Color.Red;
-                    tb_Invalid.Text = "Could not create symbol from SIDC:" + SIDC_2Try;// + ", Length:" + SIDC_2Try.Length, "Create Symbol Failed";
-                    //MessageBox.Show("Could not create 2525D symbol from 2525C ID: " + SIDC_2Try, "Convert 2525C Symbol Failed");
+                    tb_Invalid.Text = "Could not create symbol from SIDC:" + SIDC_2Try;
                 }
             }
             else
@@ -287,7 +272,7 @@ namespace MilSymbolPicker
             else
             {
                 tb_Invalid.BackColor = Color.Red;
-                tb_Invalid.Text = "Could not create symbol from SIDC:" + SIDC_2Try;// + ", Length:" + SIDC_2Try.Length, "Create Symbol Failed";
+                tb_Invalid.Text = "Could not create symbol from SIDC:" + SIDC_2Try;
             }
 
             setSymbolState();
@@ -312,17 +297,14 @@ namespace MilSymbolPicker
         {
             string id2Try = tb_SIDC.Text.Trim();
 
-            if (id2Try.Length==10)
-                drawSymbol(id2Try);
+            if (id2Try.Length==10) drawSymbol(id2Try);
             if (id2Try.Length == 15)
             {
                 drawSymbol(id2Try);
                 fillReadBoxes(id2Try);
             }
-            if (id2Try.Length == 8)
-                drawSymbol(id2Try);
-            if (id2Try.Length == 20)
-                drawSymbol(id2Try);
+            if (id2Try.Length == 8) drawSymbol(id2Try);
+            if (id2Try.Length == 20) drawSymbol(id2Try);
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -377,108 +359,38 @@ namespace MilSymbolPicker
             drawSymbol(S_T4);
         }
 
-        private void tbSIDC_1_TextChanged(object sender, EventArgs e)
-        {
-            readBoxes();
-        }
 
-        private void tbSIDC_2_TextChanged(object sender, EventArgs e)
-        {
-            readBoxes();
-        }
-
-        private void tbSIDC_3_TextChanged(object sender, EventArgs e)
-        {
-            readBoxes();
-        }
-
-        private void tbSIDC_4_TextChanged(object sender, EventArgs e)
-        {
-            readBoxes();
-        }
-
-        private void tbSIDC_5_TextChanged(object sender, EventArgs e)
-        {
-            readBoxes();
-        }
-
-        private void tbSIDC_6_TextChanged(object sender, EventArgs e)
-        {
-            readBoxes();
-        }
-
-        private void tbSIDC_7_TextChanged(object sender, EventArgs e)
-        {
-            readBoxes();
-        }
-
-        private void tbSIDC_8_TextChanged(object sender, EventArgs e)
-        {
-            readBoxes();
-        }
-
-        private void tbSIDC_9_TextChanged(object sender, EventArgs e)
-        {
-            readBoxes();
-        }
-
-        private void tbSIDC_10_TextChanged(object sender, EventArgs e)
-        {
-            readBoxes();
-        }
-
-        private void tbSIDC_11_TextChanged(object sender, EventArgs e)
-        {
-            readBoxes();
-        }
-
-        private void tbSIDC_12_TextChanged(object sender, EventArgs e)
-        {
-            readBoxes();
-        }
-
-        private void tbSIDC_13_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tbSIDC_14_TextChanged(object sender, EventArgs e)
-        {
-            readBoxes();
-        }
-
-        private void tbSIDC_15_TextChanged(object sender, EventArgs e)
+        private void tbSIDC_TextChanged(object sender, EventArgs e)
         {
             readBoxes();
         }
 
         private void bn_SVG_Click(object sender, EventArgs e)
         {
-            //BuildSVG();
+            BuildSVG();
 
             parseSVG(@"0_330_0tweaked.xml");
             //parseSVG("SIDC.xml");
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            tbSIDC_5.Text = listBox1.Text;
-        }
+
+
+
+
+
+
+
+
+
+
 
         private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             tbSIDC_6.Text = listBox2.Text;
         }
 
-        private void listBox3_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            tbSIDC_7.Text = listBox3.Text;
-        }
 
-        private void listBox4_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            tbSIDC_8.Text = listBox4.Text;
-        }
+
 
         private void listBox5_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -500,18 +412,7 @@ namespace MilSymbolPicker
             tbSIDC_12.Text = listBox8.Text;
         }
 
-        private void listBox9_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            tb_SVG.AppendText("WTF");
-            String s11 = listBox9.Text;
-            tb_SVG.AppendText(s11+"\r\n");
-            string res = s11.Substring(0, 1);
-            tbSIDC_11.Text = res;
-            tb_SVG.AppendText(res+"\r\n");
-            res = s11.Substring(1, 1);  
 
-            tbSIDC_12.Text = res;
-            tb_SVG.AppendText(res + "\r\n");
-        }
+
     }
 }
