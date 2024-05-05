@@ -28,3 +28,4 @@ D:\GITRepos\reposSource\ms2525sidcviewer\MilSymbolPicker\obj\Release\MilSymbolPi
 D:\GITRepos\reposSource\ms2525sidcviewer\MilSymbolPicker\obj\Release\MilSymbolPicker.FormPicker.resources
 D:\GITRepos\reposSource\ms2525sidcviewer\MilSymbolPicker\obj\Release\MilSymbolPicker.Properties.Resources.resources
 D:\GITRepos\reposSource\ms2525sidcviewer\MilSymbolPicker\obj\Release\MilSymbolPicker.csproj.GenerateResource.Cache
+C:\source\gitinternal\MS2525Viewer\MilSymbolPicker\bin\Release\MilitarySymbols.dll

@@ -43,6 +43,27 @@
             this.tbTags = new System.Windows.Forms.TextBox();
             this.tb_DebugTab4 = new System.Windows.Forms.TextBox();
             this.SIDC = new System.Windows.Forms.GroupBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.RB_Team = new System.Windows.Forms.RadioButton();
+            this.RB_Squad = new System.Windows.Forms.RadioButton();
+            this.RB_Section = new System.Windows.Forms.RadioButton();
+            this.RB_Platoon = new System.Windows.Forms.RadioButton();
+            this.RB_Reg = new System.Windows.Forms.RadioButton();
+            this.RB_Coy = new System.Windows.Forms.RadioButton();
+            this.RB_BN = new System.Windows.Forms.RadioButton();
+            this.RB_Bde = new System.Windows.Forms.RadioButton();
+            this.RB_Div = new System.Windows.Forms.RadioButton();
+            this.CB_TF = new System.Windows.Forms.CheckBox();
+            this.CB_HQ = new System.Windows.Forms.CheckBox();
+            this.LB_SIDC_U_9and10 = new System.Windows.Forms.ListBox();
+            this.lb_SIDC8_U = new System.Windows.Forms.ListBox();
+            this.lb_SIDC7_U = new System.Windows.Forms.ListBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.RB_U_None = new System.Windows.Forms.RadioButton();
+            this.RB_UH = new System.Windows.Forms.RadioButton();
+            this.RB_US = new System.Windows.Forms.RadioButton();
+            this.RB_UU = new System.Windows.Forms.RadioButton();
+            this.RB_UC = new System.Windows.Forms.RadioButton();
             this.LB_SIDC_E_9and10 = new System.Windows.Forms.ListBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.RB_None = new System.Windows.Forms.RadioButton();
@@ -60,6 +81,7 @@
             this.RB_MP = new System.Windows.Forms.RadioButton();
             this.RB_MO = new System.Windows.Forms.RadioButton();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.RB_E_None = new System.Windows.Forms.RadioButton();
             this.RB_EX = new System.Windows.Forms.RadioButton();
             this.RB_EV = new System.Windows.Forms.RadioButton();
             this.RB_ES = new System.Windows.Forms.RadioButton();
@@ -133,25 +155,18 @@
             this.tb_Invalid = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.RV_UC = new System.Windows.Forms.RadioButton();
-            this.RB_UU = new System.Windows.Forms.RadioButton();
-            this.RB_CS = new System.Windows.Forms.RadioButton();
-            this.RB_UH = new System.Windows.Forms.RadioButton();
-            this.lb_SIDC7_U = new System.Windows.Forms.ListBox();
-            this.lb_SIDC8_U = new System.Windows.Forms.ListBox();
-            this.LB_SIDC_U_9and10 = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbSymbolImage2)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.Tree.SuspendLayout();
             this.SIDC.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SVG.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // pbSymbolImage2
@@ -268,7 +283,7 @@
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1580, 681);
+            this.tabControl1.Size = new System.Drawing.Size(1580, 727);
             this.tabControl1.TabIndex = 44;
             // 
             // Tree
@@ -281,7 +296,7 @@
             this.Tree.Location = new System.Drawing.Point(4, 29);
             this.Tree.Name = "Tree";
             this.Tree.Padding = new System.Windows.Forms.Padding(3);
-            this.Tree.Size = new System.Drawing.Size(1572, 648);
+            this.Tree.Size = new System.Drawing.Size(1572, 694);
             this.Tree.TabIndex = 4;
             this.Tree.Text = "Detailed";
             this.Tree.UseVisualStyleBackColor = true;
@@ -299,13 +314,16 @@
             // 
             // tb_DebugTab4
             // 
-            this.tb_DebugTab4.Location = new System.Drawing.Point(8, 604);
+            this.tb_DebugTab4.Location = new System.Drawing.Point(8, 649);
             this.tb_DebugTab4.Name = "tb_DebugTab4";
             this.tb_DebugTab4.Size = new System.Drawing.Size(415, 26);
             this.tb_DebugTab4.TabIndex = 17;
             // 
             // SIDC
             // 
+            this.SIDC.Controls.Add(this.flowLayoutPanel1);
+            this.SIDC.Controls.Add(this.CB_TF);
+            this.SIDC.Controls.Add(this.CB_HQ);
             this.SIDC.Controls.Add(this.LB_SIDC_U_9and10);
             this.SIDC.Controls.Add(this.lb_SIDC8_U);
             this.SIDC.Controls.Add(this.lb_SIDC7_U);
@@ -350,16 +368,309 @@
             this.SIDC.Location = new System.Drawing.Point(8, 11);
             this.SIDC.Name = "SIDC";
             this.SIDC.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.SIDC.Size = new System.Drawing.Size(907, 571);
+            this.SIDC.Size = new System.Drawing.Size(907, 617);
             this.SIDC.TabIndex = 16;
             this.SIDC.TabStop = false;
             this.SIDC.Text = "SIDC";
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Controls.Add(this.RB_Team);
+            this.flowLayoutPanel1.Controls.Add(this.RB_Squad);
+            this.flowLayoutPanel1.Controls.Add(this.RB_Section);
+            this.flowLayoutPanel1.Controls.Add(this.RB_Platoon);
+            this.flowLayoutPanel1.Controls.Add(this.RB_Coy);
+            this.flowLayoutPanel1.Controls.Add(this.RB_BN);
+            this.flowLayoutPanel1.Controls.Add(this.RB_Reg);
+            this.flowLayoutPanel1.Controls.Add(this.RB_Bde);
+            this.flowLayoutPanel1.Controls.Add(this.RB_Div);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(622, 8);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(154, 296);
+            this.flowLayoutPanel1.TabIndex = 65;
+            // 
+            // RB_Team
+            // 
+            this.RB_Team.AutoSize = true;
+            this.RB_Team.Location = new System.Drawing.Point(3, 3);
+            this.RB_Team.Name = "RB_Team";
+            this.RB_Team.Size = new System.Drawing.Size(114, 24);
+            this.RB_Team.TabIndex = 0;
+            this.RB_Team.TabStop = true;
+            this.RB_Team.Text = "Team/Crew";
+            this.RB_Team.UseVisualStyleBackColor = true;
+            this.RB_Team.CheckedChanged += new System.EventHandler(this.RB_UnitSize_CheckedChanged);
+            // 
+            // RB_Squad
+            // 
+            this.RB_Squad.AutoSize = true;
+            this.RB_Squad.Location = new System.Drawing.Point(3, 33);
+            this.RB_Squad.Name = "RB_Squad";
+            this.RB_Squad.Size = new System.Drawing.Size(81, 24);
+            this.RB_Squad.TabIndex = 1;
+            this.RB_Squad.TabStop = true;
+            this.RB_Squad.Text = "Squad";
+            this.RB_Squad.UseVisualStyleBackColor = true;
+            this.RB_Squad.CheckedChanged += new System.EventHandler(this.RB_UnitSize_CheckedChanged);
+            // 
+            // RB_Section
+            // 
+            this.RB_Section.AutoSize = true;
+            this.RB_Section.Location = new System.Drawing.Point(3, 63);
+            this.RB_Section.Name = "RB_Section";
+            this.RB_Section.Size = new System.Drawing.Size(88, 24);
+            this.RB_Section.TabIndex = 2;
+            this.RB_Section.TabStop = true;
+            this.RB_Section.Text = "Section";
+            this.RB_Section.UseVisualStyleBackColor = true;
+            this.RB_Section.CheckedChanged += new System.EventHandler(this.RB_UnitSize_CheckedChanged);
+            // 
+            // RB_Platoon
+            // 
+            this.RB_Platoon.AutoSize = true;
+            this.RB_Platoon.Location = new System.Drawing.Point(3, 93);
+            this.RB_Platoon.Name = "RB_Platoon";
+            this.RB_Platoon.Size = new System.Drawing.Size(88, 24);
+            this.RB_Platoon.TabIndex = 8;
+            this.RB_Platoon.TabStop = true;
+            this.RB_Platoon.Text = "Platoon";
+            this.RB_Platoon.UseVisualStyleBackColor = true;
+            this.RB_Platoon.CheckedChanged += new System.EventHandler(this.RB_UnitSize_CheckedChanged);
+            // 
+            // RB_Reg
+            // 
+            this.RB_Reg.AutoSize = true;
+            this.RB_Reg.Location = new System.Drawing.Point(3, 183);
+            this.RB_Reg.Name = "RB_Reg";
+            this.RB_Reg.Size = new System.Drawing.Size(103, 24);
+            this.RB_Reg.TabIndex = 3;
+            this.RB_Reg.TabStop = true;
+            this.RB_Reg.Text = "Regiment";
+            this.RB_Reg.UseVisualStyleBackColor = true;
+            this.RB_Reg.CheckedChanged += new System.EventHandler(this.RB_UnitSize_CheckedChanged);
+            // 
+            // RB_Coy
+            // 
+            this.RB_Coy.AutoSize = true;
+            this.RB_Coy.Location = new System.Drawing.Point(3, 123);
+            this.RB_Coy.Name = "RB_Coy";
+            this.RB_Coy.Size = new System.Drawing.Size(135, 24);
+            this.RB_Coy.TabIndex = 4;
+            this.RB_Coy.TabStop = true;
+            this.RB_Coy.Text = "Coy/Bat/Troop";
+            this.RB_Coy.UseVisualStyleBackColor = true;
+            this.RB_Coy.CheckedChanged += new System.EventHandler(this.RB_UnitSize_CheckedChanged);
+            // 
+            // RB_BN
+            // 
+            this.RB_BN.AutoSize = true;
+            this.RB_BN.Location = new System.Drawing.Point(3, 153);
+            this.RB_BN.Name = "RB_BN";
+            this.RB_BN.Size = new System.Drawing.Size(130, 24);
+            this.RB_BN.TabIndex = 5;
+            this.RB_BN.TabStop = true;
+            this.RB_BN.Text = "Battalion/Sqn";
+            this.RB_BN.UseVisualStyleBackColor = true;
+            this.RB_BN.CheckedChanged += new System.EventHandler(this.RB_UnitSize_CheckedChanged);
+            // 
+            // RB_Bde
+            // 
+            this.RB_Bde.AutoSize = true;
+            this.RB_Bde.Location = new System.Drawing.Point(3, 213);
+            this.RB_Bde.Name = "RB_Bde";
+            this.RB_Bde.Size = new System.Drawing.Size(89, 24);
+            this.RB_Bde.TabIndex = 6;
+            this.RB_Bde.TabStop = true;
+            this.RB_Bde.Text = "Brigade";
+            this.RB_Bde.UseVisualStyleBackColor = true;
+            this.RB_Bde.CheckedChanged += new System.EventHandler(this.RB_UnitSize_CheckedChanged);
+            // 
+            // RB_Div
+            // 
+            this.RB_Div.AutoSize = true;
+            this.RB_Div.Location = new System.Drawing.Point(3, 243);
+            this.RB_Div.Name = "RB_Div";
+            this.RB_Div.Size = new System.Drawing.Size(88, 24);
+            this.RB_Div.TabIndex = 7;
+            this.RB_Div.TabStop = true;
+            this.RB_Div.Text = "Division";
+            this.RB_Div.UseVisualStyleBackColor = true;
+            this.RB_Div.CheckedChanged += new System.EventHandler(this.RB_UnitSize_CheckedChanged);
+            // 
+            // CB_TF
+            // 
+            this.CB_TF.AccessibleDescription = "CB_HQ";
+            this.CB_TF.AutoSize = true;
+            this.CB_TF.Location = new System.Drawing.Point(546, 263);
+            this.CB_TF.Name = "CB_TF";
+            this.CB_TF.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.CB_TF.Size = new System.Drawing.Size(54, 24);
+            this.CB_TF.TabIndex = 64;
+            this.CB_TF.Text = "TF";
+            this.CB_TF.UseVisualStyleBackColor = true;
+            this.CB_TF.CheckedChanged += new System.EventHandler(this.CB_TF_CheckedChanged);
+            // 
+            // CB_HQ
+            // 
+            this.CB_HQ.AccessibleDescription = "CB_HQ";
+            this.CB_HQ.AutoSize = true;
+            this.CB_HQ.Location = new System.Drawing.Point(541, 233);
+            this.CB_HQ.Name = "CB_HQ";
+            this.CB_HQ.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.CB_HQ.Size = new System.Drawing.Size(59, 24);
+            this.CB_HQ.TabIndex = 63;
+            this.CB_HQ.Text = "HQ";
+            this.CB_HQ.UseVisualStyleBackColor = true;
+            this.CB_HQ.CheckedChanged += new System.EventHandler(this.CB_HQ_CheckedChanged);
+            // 
+            // LB_SIDC_U_9and10
+            // 
+            this.LB_SIDC_U_9and10.FormattingEnabled = true;
+            this.LB_SIDC_U_9and10.ItemHeight = 20;
+            this.LB_SIDC_U_9and10.Location = new System.Drawing.Point(419, 97);
+            this.LB_SIDC_U_9and10.Name = "LB_SIDC_U_9and10";
+            this.LB_SIDC_U_9and10.Size = new System.Drawing.Size(69, 144);
+            this.LB_SIDC_U_9and10.TabIndex = 62;
+            this.LB_SIDC_U_9and10.SelectedIndexChanged += new System.EventHandler(this.LB_SIDC_U_9and10_SelectedIndexChanged);
+            // 
+            // lb_SIDC8_U
+            // 
+            this.lb_SIDC8_U.FormattingEnabled = true;
+            this.lb_SIDC8_U.ItemHeight = 20;
+            this.lb_SIDC8_U.Items.AddRange(new object[] {
+            "S",
+            "M",
+            "H",
+            "G",
+            "C",
+            "T",
+            "O",
+            "W",
+            "F",
+            "R",
+            "V",
+            "U",
+            "L",
+            "Z",
+            "N",
+            "I",
+            "X",
+            "U",
+            "-",
+            "L",
+            "T",
+            "-"});
+            this.lb_SIDC8_U.Location = new System.Drawing.Point(346, 97);
+            this.lb_SIDC8_U.Name = "lb_SIDC8_U";
+            this.lb_SIDC8_U.Size = new System.Drawing.Size(52, 144);
+            this.lb_SIDC8_U.TabIndex = 61;
+            this.lb_SIDC8_U.SelectedIndexChanged += new System.EventHandler(this.lb_SIDC8_U_SelectedIndexChanged);
+            // 
+            // lb_SIDC7_U
+            // 
+            this.lb_SIDC7_U.FormattingEnabled = true;
+            this.lb_SIDC7_U.ItemHeight = 20;
+            this.lb_SIDC7_U.Items.AddRange(new object[] {
+            "-",
+            "D",
+            "A",
+            "V",
+            "I",
+            "E",
+            "F",
+            "R",
+            "M",
+            "S",
+            "-",
+            "A",
+            "E",
+            "U"});
+            this.lb_SIDC7_U.Location = new System.Drawing.Point(285, 97);
+            this.lb_SIDC7_U.Name = "lb_SIDC7_U";
+            this.lb_SIDC7_U.Size = new System.Drawing.Size(52, 144);
+            this.lb_SIDC7_U.TabIndex = 60;
+            this.lb_SIDC7_U.SelectedIndexChanged += new System.EventHandler(this.lb_SIDC7_U_SelectedIndexChanged);
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.RB_U_None);
+            this.panel3.Controls.Add(this.RB_UH);
+            this.panel3.Controls.Add(this.RB_US);
+            this.panel3.Controls.Add(this.RB_UU);
+            this.panel3.Controls.Add(this.RB_UC);
+            this.panel3.Location = new System.Drawing.Point(147, 81);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(115, 160);
+            this.panel3.TabIndex = 59;
+            // 
+            // RB_U_None
+            // 
+            this.RB_U_None.AutoSize = true;
+            this.RB_U_None.Checked = true;
+            this.RB_U_None.Location = new System.Drawing.Point(37, 123);
+            this.RB_U_None.Name = "RB_U_None";
+            this.RB_U_None.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.RB_U_None.Size = new System.Drawing.Size(72, 24);
+            this.RB_U_None.TabIndex = 4;
+            this.RB_U_None.TabStop = true;
+            this.RB_U_None.Text = "None";
+            this.RB_U_None.UseVisualStyleBackColor = true;
+            this.RB_U_None.CheckedChanged += new System.EventHandler(this.RB_U_None_CheckedChanged);
+            // 
+            // RB_UH
+            // 
+            this.RB_UH.AutoSize = true;
+            this.RB_UH.Location = new System.Drawing.Point(27, 3);
+            this.RB_UH.Name = "RB_UH";
+            this.RB_UH.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.RB_UH.Size = new System.Drawing.Size(82, 24);
+            this.RB_UH.TabIndex = 3;
+            this.RB_UH.Text = "C2 HQ";
+            this.toolTip1.SetToolTip(this.RB_UH, "C2 HQ Component");
+            this.RB_UH.UseVisualStyleBackColor = true;
+            this.RB_UH.CheckedChanged += new System.EventHandler(this.RB_UH_CheckedChanged);
+            // 
+            // RB_US
+            // 
+            this.RB_US.AutoSize = true;
+            this.RB_US.Location = new System.Drawing.Point(42, 33);
+            this.RB_US.Name = "RB_US";
+            this.RB_US.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.RB_US.Size = new System.Drawing.Size(67, 24);
+            this.RB_US.TabIndex = 2;
+            this.RB_US.Text = "CSS";
+            this.RB_US.UseVisualStyleBackColor = true;
+            this.RB_US.CheckedChanged += new System.EventHandler(this.RB_US_CheckedChanged);
+            // 
+            // RB_UU
+            // 
+            this.RB_UU.AutoSize = true;
+            this.RB_UU.Location = new System.Drawing.Point(53, 63);
+            this.RB_UU.Name = "RB_UU";
+            this.RB_UU.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.RB_UU.Size = new System.Drawing.Size(56, 24);
+            this.RB_UU.TabIndex = 1;
+            this.RB_UU.Text = "CS";
+            this.RB_UU.UseVisualStyleBackColor = true;
+            this.RB_UU.CheckedChanged += new System.EventHandler(this.RB_UU_CheckedChanged);
+            // 
+            // RB_UC
+            // 
+            this.RB_UC.AutoSize = true;
+            this.RB_UC.Location = new System.Drawing.Point(19, 93);
+            this.RB_UC.Name = "RB_UC";
+            this.RB_UC.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.RB_UC.Size = new System.Drawing.Size(90, 24);
+            this.RB_UC.TabIndex = 0;
+            this.RB_UC.Text = "Combat";
+            this.RB_UC.UseVisualStyleBackColor = true;
+            this.RB_UC.CheckedChanged += new System.EventHandler(this.RV_UC_CheckedChanged);
             // 
             // LB_SIDC_E_9and10
             // 
             this.LB_SIDC_E_9and10.FormattingEnabled = true;
             this.LB_SIDC_E_9and10.ItemHeight = 20;
-            this.LB_SIDC_E_9and10.Location = new System.Drawing.Point(419, 382);
+            this.LB_SIDC_E_9and10.Location = new System.Drawing.Point(419, 415);
             this.LB_SIDC_E_9and10.Name = "LB_SIDC_E_9and10";
             this.LB_SIDC_E_9and10.Size = new System.Drawing.Size(69, 144);
             this.LB_SIDC_E_9and10.TabIndex = 58;
@@ -382,7 +693,7 @@
             this.panel2.Controls.Add(this.RB_MQ);
             this.panel2.Controls.Add(this.RB_MP);
             this.panel2.Controls.Add(this.RB_MO);
-            this.panel2.Location = new System.Drawing.Point(546, 382);
+            this.panel2.Location = new System.Drawing.Point(546, 415);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(343, 180);
             this.panel2.TabIndex = 58;
@@ -558,14 +869,30 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.RB_E_None);
             this.panel1.Controls.Add(this.RB_EX);
             this.panel1.Controls.Add(this.RB_EV);
             this.panel1.Controls.Add(this.RB_ES);
             this.panel1.Controls.Add(this.RB_EW);
-            this.panel1.Location = new System.Drawing.Point(147, 382);
+            this.panel1.Location = new System.Drawing.Point(147, 415);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(115, 144);
+            this.panel1.Size = new System.Drawing.Size(115, 164);
             this.panel1.TabIndex = 38;
+            // 
+            // RB_E_None
+            // 
+            this.RB_E_None.AutoSize = true;
+            this.RB_E_None.Checked = true;
+            this.RB_E_None.Location = new System.Drawing.Point(31, 129);
+            this.RB_E_None.Name = "RB_E_None";
+            this.RB_E_None.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.RB_E_None.Size = new System.Drawing.Size(72, 24);
+            this.RB_E_None.TabIndex = 39;
+            this.RB_E_None.TabStop = true;
+            this.RB_E_None.Text = "None";
+            this.RB_E_None.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.RB_E_None.UseVisualStyleBackColor = true;
+            this.RB_E_None.CheckedChanged += new System.EventHandler(this.RB_E_None_CheckedChanged);
             // 
             // RB_EX
             // 
@@ -583,13 +910,11 @@
             // RB_EV
             // 
             this.RB_EV.AutoSize = true;
-            this.RB_EV.Checked = true;
             this.RB_EV.Location = new System.Drawing.Point(17, 9);
             this.RB_EV.Name = "RB_EV";
             this.RB_EV.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.RB_EV.Size = new System.Drawing.Size(86, 24);
             this.RB_EV.TabIndex = 35;
-            this.RB_EV.TabStop = true;
             this.RB_EV.Text = "Vehicle";
             this.RB_EV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.RB_EV.UseVisualStyleBackColor = true;
@@ -625,7 +950,7 @@
             // 
             this.RB_Equipment.AutoSize = true;
             this.RB_Equipment.Checked = true;
-            this.RB_Equipment.Location = new System.Drawing.Point(110, 352);
+            this.RB_Equipment.Location = new System.Drawing.Point(110, 385);
             this.RB_Equipment.Name = "RB_Equipment";
             this.RB_Equipment.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.RB_Equipment.Size = new System.Drawing.Size(111, 24);
@@ -638,7 +963,7 @@
             // RB_Unit
             // 
             this.RB_Unit.AutoSize = true;
-            this.RB_Unit.Location = new System.Drawing.Point(158, 247);
+            this.RB_Unit.Location = new System.Drawing.Point(158, 280);
             this.RB_Unit.Name = "RB_Unit";
             this.RB_Unit.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.RB_Unit.Size = new System.Drawing.Size(63, 24);
@@ -653,7 +978,7 @@
             this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox12.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox12.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(96, 277);
+            this.textBox12.Location = new System.Drawing.Point(96, 310);
             this.textBox12.MaxLength = 1;
             this.textBox12.Name = "textBox12";
             this.textBox12.ReadOnly = true;
@@ -669,7 +994,7 @@
             this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox13.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox13.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(70, 277);
+            this.textBox13.Location = new System.Drawing.Point(70, 310);
             this.textBox13.MaxLength = 1;
             this.textBox13.Name = "textBox13";
             this.textBox13.ReadOnly = true;
@@ -706,7 +1031,7 @@
             "L",
             "T",
             "-"});
-            this.lb_SIDC8_E.Location = new System.Drawing.Point(346, 382);
+            this.lb_SIDC8_E.Location = new System.Drawing.Point(346, 415);
             this.lb_SIDC8_E.Name = "lb_SIDC8_E";
             this.lb_SIDC8_E.Size = new System.Drawing.Size(52, 144);
             this.lb_SIDC8_E.TabIndex = 51;
@@ -718,7 +1043,7 @@
             this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox14.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox14.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(44, 277);
+            this.textBox14.Location = new System.Drawing.Point(44, 310);
             this.textBox14.MaxLength = 1;
             this.textBox14.Name = "textBox14";
             this.textBox14.ReadOnly = true;
@@ -747,7 +1072,7 @@
             "A",
             "E",
             "U"});
-            this.lb_SIDC7_E.Location = new System.Drawing.Point(285, 382);
+            this.lb_SIDC7_E.Location = new System.Drawing.Point(285, 415);
             this.lb_SIDC7_E.Name = "lb_SIDC7_E";
             this.lb_SIDC7_E.Size = new System.Drawing.Size(52, 144);
             this.lb_SIDC7_E.TabIndex = 50;
@@ -759,7 +1084,7 @@
             this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox15.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox15.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox15.Location = new System.Drawing.Point(16, 277);
+            this.textBox15.Location = new System.Drawing.Point(16, 310);
             this.textBox15.MaxLength = 1;
             this.textBox15.Name = "textBox15";
             this.textBox15.ReadOnly = true;
@@ -775,7 +1100,7 @@
             this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox9.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox9.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(859, 277);
+            this.textBox9.Location = new System.Drawing.Point(859, 310);
             this.textBox9.MaxLength = 1;
             this.textBox9.Name = "textBox9";
             this.textBox9.ReadOnly = true;
@@ -791,7 +1116,7 @@
             this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox10.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox10.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(832, 277);
+            this.textBox10.Location = new System.Drawing.Point(832, 310);
             this.textBox10.MaxLength = 1;
             this.textBox10.Name = "textBox10";
             this.textBox10.ReadOnly = true;
@@ -807,7 +1132,7 @@
             this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox11.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox11.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(806, 277);
+            this.textBox11.Location = new System.Drawing.Point(806, 310);
             this.textBox11.MaxLength = 1;
             this.textBox11.Name = "textBox11";
             this.textBox11.ReadOnly = true;
@@ -822,7 +1147,7 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox1.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(603, 277);
+            this.textBox1.Location = new System.Drawing.Point(603, 310);
             this.textBox1.MaxLength = 1;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
@@ -837,7 +1162,7 @@
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox2.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(575, 277);
+            this.textBox2.Location = new System.Drawing.Point(575, 310);
             this.textBox2.MaxLength = 1;
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
@@ -852,7 +1177,7 @@
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox3.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox3.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(454, 277);
+            this.textBox3.Location = new System.Drawing.Point(454, 310);
             this.textBox3.MaxLength = 1;
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
@@ -867,7 +1192,7 @@
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox4.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox4.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(427, 277);
+            this.textBox4.Location = new System.Drawing.Point(427, 310);
             this.textBox4.MaxLength = 1;
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
@@ -882,7 +1207,7 @@
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox5.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox5.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(343, 277);
+            this.textBox5.Location = new System.Drawing.Point(343, 310);
             this.textBox5.MaxLength = 1;
             this.textBox5.Name = "textBox5";
             this.textBox5.ReadOnly = true;
@@ -897,7 +1222,7 @@
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox6.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox6.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(318, 277);
+            this.textBox6.Location = new System.Drawing.Point(318, 310);
             this.textBox6.MaxLength = 1;
             this.textBox6.Name = "textBox6";
             this.textBox6.ReadOnly = true;
@@ -912,7 +1237,7 @@
             this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox7.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox7.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(228, 277);
+            this.textBox7.Location = new System.Drawing.Point(228, 310);
             this.textBox7.MaxLength = 1;
             this.textBox7.Name = "textBox7";
             this.textBox7.ReadOnly = true;
@@ -927,7 +1252,7 @@
             this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox8.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox8.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(202, 277);
+            this.textBox8.Location = new System.Drawing.Point(202, 310);
             this.textBox8.MaxLength = 1;
             this.textBox8.Name = "textBox8";
             this.textBox8.ReadOnly = true;
@@ -943,7 +1268,7 @@
             this.tbSIDC_15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbSIDC_15.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tbSIDC_15.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbSIDC_15.Location = new System.Drawing.Point(859, 311);
+            this.tbSIDC_15.Location = new System.Drawing.Point(859, 344);
             this.tbSIDC_15.MaxLength = 1;
             this.tbSIDC_15.Name = "tbSIDC_15";
             this.tbSIDC_15.Size = new System.Drawing.Size(30, 35);
@@ -959,7 +1284,7 @@
             this.tbSIDC_14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbSIDC_14.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tbSIDC_14.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbSIDC_14.Location = new System.Drawing.Point(832, 311);
+            this.tbSIDC_14.Location = new System.Drawing.Point(832, 344);
             this.tbSIDC_14.MaxLength = 1;
             this.tbSIDC_14.Name = "tbSIDC_14";
             this.tbSIDC_14.Size = new System.Drawing.Size(30, 35);
@@ -975,7 +1300,7 @@
             this.tbSIDC_13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbSIDC_13.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tbSIDC_13.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbSIDC_13.Location = new System.Drawing.Point(806, 311);
+            this.tbSIDC_13.Location = new System.Drawing.Point(806, 344);
             this.tbSIDC_13.MaxLength = 1;
             this.tbSIDC_13.Name = "tbSIDC_13";
             this.tbSIDC_13.Size = new System.Drawing.Size(30, 35);
@@ -990,7 +1315,7 @@
             this.tbSIDC_12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbSIDC_12.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tbSIDC_12.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbSIDC_12.Location = new System.Drawing.Point(603, 311);
+            this.tbSIDC_12.Location = new System.Drawing.Point(603, 344);
             this.tbSIDC_12.MaxLength = 1;
             this.tbSIDC_12.Name = "tbSIDC_12";
             this.tbSIDC_12.Size = new System.Drawing.Size(30, 35);
@@ -1005,7 +1330,7 @@
             this.tbSIDC_11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbSIDC_11.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tbSIDC_11.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbSIDC_11.Location = new System.Drawing.Point(575, 311);
+            this.tbSIDC_11.Location = new System.Drawing.Point(575, 344);
             this.tbSIDC_11.MaxLength = 1;
             this.tbSIDC_11.Name = "tbSIDC_11";
             this.tbSIDC_11.Size = new System.Drawing.Size(30, 35);
@@ -1020,7 +1345,7 @@
             this.tbSIDC_10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbSIDC_10.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tbSIDC_10.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbSIDC_10.Location = new System.Drawing.Point(454, 311);
+            this.tbSIDC_10.Location = new System.Drawing.Point(454, 344);
             this.tbSIDC_10.MaxLength = 1;
             this.tbSIDC_10.Name = "tbSIDC_10";
             this.tbSIDC_10.Size = new System.Drawing.Size(30, 35);
@@ -1034,7 +1359,7 @@
             this.tbSIDC_9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbSIDC_9.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tbSIDC_9.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbSIDC_9.Location = new System.Drawing.Point(427, 311);
+            this.tbSIDC_9.Location = new System.Drawing.Point(427, 344);
             this.tbSIDC_9.MaxLength = 1;
             this.tbSIDC_9.Name = "tbSIDC_9";
             this.tbSIDC_9.Size = new System.Drawing.Size(30, 35);
@@ -1048,7 +1373,7 @@
             this.tbSIDC_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbSIDC_8.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tbSIDC_8.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbSIDC_8.Location = new System.Drawing.Point(343, 311);
+            this.tbSIDC_8.Location = new System.Drawing.Point(343, 344);
             this.tbSIDC_8.MaxLength = 1;
             this.tbSIDC_8.Name = "tbSIDC_8";
             this.tbSIDC_8.Size = new System.Drawing.Size(30, 35);
@@ -1062,7 +1387,7 @@
             this.tbSIDC_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbSIDC_7.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tbSIDC_7.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbSIDC_7.Location = new System.Drawing.Point(318, 311);
+            this.tbSIDC_7.Location = new System.Drawing.Point(318, 344);
             this.tbSIDC_7.MaxLength = 1;
             this.tbSIDC_7.Name = "tbSIDC_7";
             this.tbSIDC_7.Size = new System.Drawing.Size(30, 35);
@@ -1076,7 +1401,7 @@
             this.tbSIDC_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbSIDC_6.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tbSIDC_6.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbSIDC_6.Location = new System.Drawing.Point(228, 311);
+            this.tbSIDC_6.Location = new System.Drawing.Point(228, 344);
             this.tbSIDC_6.MaxLength = 1;
             this.tbSIDC_6.Name = "tbSIDC_6";
             this.tbSIDC_6.Size = new System.Drawing.Size(30, 35);
@@ -1090,7 +1415,7 @@
             this.tbSIDC_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbSIDC_5.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tbSIDC_5.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbSIDC_5.Location = new System.Drawing.Point(202, 311);
+            this.tbSIDC_5.Location = new System.Drawing.Point(202, 344);
             this.tbSIDC_5.MaxLength = 1;
             this.tbSIDC_5.Name = "tbSIDC_5";
             this.tbSIDC_5.Size = new System.Drawing.Size(30, 35);
@@ -1105,7 +1430,7 @@
             this.tbSIDC_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbSIDC_4.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tbSIDC_4.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbSIDC_4.Location = new System.Drawing.Point(96, 311);
+            this.tbSIDC_4.Location = new System.Drawing.Point(96, 344);
             this.tbSIDC_4.MaxLength = 1;
             this.tbSIDC_4.Name = "tbSIDC_4";
             this.tbSIDC_4.Size = new System.Drawing.Size(30, 35);
@@ -1120,7 +1445,7 @@
             this.tbSIDC_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbSIDC_3.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tbSIDC_3.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbSIDC_3.Location = new System.Drawing.Point(70, 311);
+            this.tbSIDC_3.Location = new System.Drawing.Point(70, 344);
             this.tbSIDC_3.MaxLength = 1;
             this.tbSIDC_3.Name = "tbSIDC_3";
             this.tbSIDC_3.Size = new System.Drawing.Size(30, 35);
@@ -1135,7 +1460,7 @@
             this.tbSIDC_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbSIDC_2.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tbSIDC_2.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbSIDC_2.Location = new System.Drawing.Point(44, 311);
+            this.tbSIDC_2.Location = new System.Drawing.Point(44, 344);
             this.tbSIDC_2.MaxLength = 1;
             this.tbSIDC_2.Name = "tbSIDC_2";
             this.tbSIDC_2.Size = new System.Drawing.Size(30, 35);
@@ -1150,7 +1475,7 @@
             this.tbSIDC_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbSIDC_1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tbSIDC_1.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbSIDC_1.Location = new System.Drawing.Point(16, 311);
+            this.tbSIDC_1.Location = new System.Drawing.Point(16, 344);
             this.tbSIDC_1.MaxLength = 1;
             this.tbSIDC_1.Name = "tbSIDC_1";
             this.tbSIDC_1.Size = new System.Drawing.Size(30, 35);
@@ -1165,7 +1490,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1572, 648);
+            this.tabPage1.Size = new System.Drawing.Size(1572, 694);
             this.tabPage1.TabIndex = 5;
             this.tabPage1.Text = "Help";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -1190,7 +1515,7 @@
             this.SVG.Location = new System.Drawing.Point(4, 29);
             this.SVG.Name = "SVG";
             this.SVG.Padding = new System.Windows.Forms.Padding(3);
-            this.SVG.Size = new System.Drawing.Size(1572, 648);
+            this.SVG.Size = new System.Drawing.Size(1572, 694);
             this.SVG.TabIndex = 6;
             this.SVG.Text = "SVG";
             this.SVG.UseVisualStyleBackColor = true;
@@ -1240,7 +1565,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1572, 648);
+            this.tabPage2.Size = new System.Drawing.Size(1572, 694);
             this.tabPage2.TabIndex = 7;
             this.tabPage2.Text = "Debug";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -1610,134 +1935,11 @@
             this.label4.TabIndex = 46;
             this.label4.Text = "Issues:";
             // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.RB_UH);
-            this.panel3.Controls.Add(this.RB_CS);
-            this.panel3.Controls.Add(this.RB_UU);
-            this.panel3.Controls.Add(this.RV_UC);
-            this.panel3.Location = new System.Drawing.Point(147, 114);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(115, 127);
-            this.panel3.TabIndex = 59;
-            // 
-            // RV_UC
-            // 
-            this.RV_UC.AutoSize = true;
-            this.RV_UC.Checked = true;
-            this.RV_UC.Location = new System.Drawing.Point(19, 93);
-            this.RV_UC.Name = "RV_UC";
-            this.RV_UC.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.RV_UC.Size = new System.Drawing.Size(90, 24);
-            this.RV_UC.TabIndex = 0;
-            this.RV_UC.TabStop = true;
-            this.RV_UC.Text = "Combat";
-            this.RV_UC.UseVisualStyleBackColor = true;
-            // 
-            // RB_UU
-            // 
-            this.RB_UU.AutoSize = true;
-            this.RB_UU.Location = new System.Drawing.Point(53, 63);
-            this.RB_UU.Name = "RB_UU";
-            this.RB_UU.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.RB_UU.Size = new System.Drawing.Size(56, 24);
-            this.RB_UU.TabIndex = 1;
-            this.RB_UU.Text = "CS";
-            this.RB_UU.UseVisualStyleBackColor = true;
-            // 
-            // RB_CS
-            // 
-            this.RB_CS.AutoSize = true;
-            this.RB_CS.Location = new System.Drawing.Point(42, 33);
-            this.RB_CS.Name = "RB_CS";
-            this.RB_CS.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.RB_CS.Size = new System.Drawing.Size(67, 24);
-            this.RB_CS.TabIndex = 2;
-            this.RB_CS.Text = "CSS";
-            this.RB_CS.UseVisualStyleBackColor = true;
-            // 
-            // RB_UH
-            // 
-            this.RB_UH.AutoSize = true;
-            this.RB_UH.Location = new System.Drawing.Point(27, 3);
-            this.RB_UH.Name = "RB_UH";
-            this.RB_UH.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.RB_UH.Size = new System.Drawing.Size(82, 24);
-            this.RB_UH.TabIndex = 3;
-            this.RB_UH.Text = "C2 HQ";
-            this.toolTip1.SetToolTip(this.RB_UH, "C2 HQ Component");
-            this.RB_UH.UseVisualStyleBackColor = true;
-            // 
-            // lb_SIDC7_U
-            // 
-            this.lb_SIDC7_U.FormattingEnabled = true;
-            this.lb_SIDC7_U.ItemHeight = 20;
-            this.lb_SIDC7_U.Items.AddRange(new object[] {
-            "-",
-            "D",
-            "A",
-            "V",
-            "I",
-            "E",
-            "F",
-            "R",
-            "M",
-            "S",
-            "-",
-            "A",
-            "E",
-            "U"});
-            this.lb_SIDC7_U.Location = new System.Drawing.Point(285, 97);
-            this.lb_SIDC7_U.Name = "lb_SIDC7_U";
-            this.lb_SIDC7_U.Size = new System.Drawing.Size(52, 144);
-            this.lb_SIDC7_U.TabIndex = 60;
-            // 
-            // lb_SIDC8_U
-            // 
-            this.lb_SIDC8_U.FormattingEnabled = true;
-            this.lb_SIDC8_U.ItemHeight = 20;
-            this.lb_SIDC8_U.Items.AddRange(new object[] {
-            "S",
-            "M",
-            "H",
-            "G",
-            "C",
-            "T",
-            "O",
-            "W",
-            "F",
-            "R",
-            "V",
-            "U",
-            "L",
-            "Z",
-            "N",
-            "I",
-            "X",
-            "U",
-            "-",
-            "L",
-            "T",
-            "-"});
-            this.lb_SIDC8_U.Location = new System.Drawing.Point(346, 97);
-            this.lb_SIDC8_U.Name = "lb_SIDC8_U";
-            this.lb_SIDC8_U.Size = new System.Drawing.Size(52, 144);
-            this.lb_SIDC8_U.TabIndex = 61;
-            // 
-            // LB_SIDC_U_9and10
-            // 
-            this.LB_SIDC_U_9and10.FormattingEnabled = true;
-            this.LB_SIDC_U_9and10.ItemHeight = 20;
-            this.LB_SIDC_U_9and10.Location = new System.Drawing.Point(419, 97);
-            this.LB_SIDC_U_9and10.Name = "LB_SIDC_U_9and10";
-            this.LB_SIDC_U_9and10.Size = new System.Drawing.Size(69, 144);
-            this.LB_SIDC_U_9and10.TabIndex = 62;
-            // 
             // FormPicker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1646, 892);
+            this.ClientSize = new System.Drawing.Size(1646, 1009);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.listBox10);
             this.Controls.Add(this.label4);
@@ -1756,7 +1958,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormPicker";
-            this.Text = "MIL-STD-2525B SIDC Viewer, 4 May 2024, B. Graham";
+            this.Text = "MIL-STD-2525B SIDC Viewer, 5 May 2024, B. Graham";
             this.Load += new System.EventHandler(this.FormPicker_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbSymbolImage2)).EndInit();
             this.tabControl1.ResumeLayout(false);
@@ -1764,6 +1966,10 @@
             this.Tree.PerformLayout();
             this.SIDC.ResumeLayout(false);
             this.SIDC.PerformLayout();
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.flowLayoutPanel1.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -1774,8 +1980,6 @@
             this.SVG.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1888,12 +2092,26 @@
         private System.Windows.Forms.RadioButton RB_None;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.RadioButton RB_UU;
-        private System.Windows.Forms.RadioButton RV_UC;
+        private System.Windows.Forms.RadioButton RB_UC;
         private System.Windows.Forms.RadioButton RB_UH;
-        private System.Windows.Forms.RadioButton RB_CS;
+        private System.Windows.Forms.RadioButton RB_US;
         private System.Windows.Forms.ListBox LB_SIDC_U_9and10;
         private System.Windows.Forms.ListBox lb_SIDC8_U;
         private System.Windows.Forms.ListBox lb_SIDC7_U;
+        private System.Windows.Forms.RadioButton RB_U_None;
+        private System.Windows.Forms.RadioButton RB_E_None;
+        private System.Windows.Forms.CheckBox CB_TF;
+        private System.Windows.Forms.CheckBox CB_HQ;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.RadioButton RB_Team;
+        private System.Windows.Forms.RadioButton RB_Squad;
+        private System.Windows.Forms.RadioButton RB_Section;
+        private System.Windows.Forms.RadioButton RB_Reg;
+        private System.Windows.Forms.RadioButton RB_Coy;
+        private System.Windows.Forms.RadioButton RB_BN;
+        private System.Windows.Forms.RadioButton RB_Bde;
+        private System.Windows.Forms.RadioButton RB_Div;
+        private System.Windows.Forms.RadioButton RB_Platoon;
     }
 }
 

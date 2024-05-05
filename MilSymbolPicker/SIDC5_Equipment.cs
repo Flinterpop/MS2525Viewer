@@ -35,11 +35,25 @@ namespace MilSymbolPicker
             tbSIDC_10.Text = "-";
             tbSIDC_11.Text = "-";
             tbSIDC_12.Text = "-";
+            RB_E_None.Checked = true;
         }
 
 
 
         //SIDC 6
+
+        private void RB_E_None_CheckedChanged(object sender, EventArgs e)
+        {
+            tbSIDC_6.Text = "-";  //SIDC 6: Unit / Special
+            tbSIDC_7.Text = "-";
+            tbSIDC_8.Text = "-";
+            tbSIDC_9.Text = "-";
+            tbSIDC_10.Text = "-";
+            lb_SIDC7_E.Items.Clear(); lb_SIDC7_E.Items.Add('-');
+            lb_SIDC8_E.Items.Clear(); lb_SIDC8_E.Items.Add('-');
+            tbSIDC_9.Text = "-";
+        }
+
         private void RB_EV_CheckedChanged(object sender, EventArgs e)
         {
             tbSIDC_6.Text = "V";  //SIDC 6: Equipment / Vehicle
@@ -270,7 +284,7 @@ namespace MilSymbolPicker
         }
 
 
-        private void SetUpSIDC9and10ForEV()  //handles EWM  EWS  EWX, other EW do not use SIDC 9 or 10       
+        private void SetUpSIDC9and10ForEV()  //handles EVA  EVU  EVE, other EW do not use SIDC 9 or 10       
         {
             LB_SIDC_E_9and10.Items.Clear();
             //EVA

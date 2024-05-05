@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\source\\gitinternal\\MS2525Viewer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|c:\\source\\gitinternal\\ms2525viewer\\milsymbolpicker\\sidc5_unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|solutionrelative:milsymbolpicker\\sidc5_unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|c:\\source\\gitinternal\\ms2525viewer\\milsymbolpicker\\formpicker.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|solutionrelative:milsymbolpicker\\formpicker.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|c:\\source\\gitinternal\\ms2525viewer\\milsymbolpicker\\sidc5_equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|solutionrelative:milsymbolpicker\\sidc5_equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|c:\\source\\gitinternal\\ms2525viewer\\milsymbolpicker\\formpicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|solutionrelative:milsymbolpicker\\formpicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|C:\\source\\gitinternal\\MS2525Viewer\\milsymbolpicker\\formpicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|solutionrelative:milsymbolpicker\\formpicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|c:\\source\\gitinternal\\ms2525viewer\\milsymbolpicker\\formpicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|solutionrelative:milsymbolpicker\\formpicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|c:\\source\\gitinternal\\ms2525viewer\\milsymbolpicker\\sidc5_unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|solutionrelative:milsymbolpicker\\sidc5_unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|c:\\source\\gitinternal\\ms2525viewer\\milsymbolpicker\\sidc5_equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|solutionrelative:milsymbolpicker\\sidc5_equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormPicker.Designer.cs",
-              "DocumentMoniker": "C:\\source\\gitinternal\\MS2525Viewer\\MilSymbolPicker\\FormPicker.Designer.cs",
-              "RelativeDocumentMoniker": "MilSymbolPicker\\FormPicker.Designer.cs",
-              "ToolTip": "C:\\source\\gitinternal\\MS2525Viewer\\MilSymbolPicker\\FormPicker.Designer.cs",
-              "RelativeToolTip": "MilSymbolPicker\\FormPicker.Designer.cs",
-              "ViewState": "AQIAAEUGAAAAAAAAAAAAAGMGAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:53:54.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SIDC5_Unit.cs",
-              "DocumentMoniker": "C:\\source\\gitinternal\\MS2525Viewer\\MilSymbolPicker\\SIDC5_Unit.cs",
-              "RelativeDocumentMoniker": "MilSymbolPicker\\SIDC5_Unit.cs",
-              "ToolTip": "C:\\source\\gitinternal\\MS2525Viewer\\MilSymbolPicker\\SIDC5_Unit.cs",
-              "RelativeToolTip": "MilSymbolPicker\\SIDC5_Unit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:44:05.819Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SIDC5_Equipment.cs",
               "DocumentMoniker": "C:\\source\\gitinternal\\MS2525Viewer\\MilSymbolPicker\\SIDC5_Equipment.cs",
               "RelativeDocumentMoniker": "MilSymbolPicker\\SIDC5_Equipment.cs",
               "ToolTip": "C:\\source\\gitinternal\\MS2525Viewer\\MilSymbolPicker\\SIDC5_Equipment.cs",
               "RelativeToolTip": "MilSymbolPicker\\SIDC5_Equipment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvzgAAAAAAAAA",
+              "ViewState": "AQIAAOUAAAAAAAAAAAAAAGABAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T12:51:32.993Z",
+              "WhenOpened": "2024-05-05T15:33:40.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "FormPicker.cs [Design]",
               "DocumentMoniker": "C:\\source\\gitinternal\\MS2525Viewer\\MilSymbolPicker\\FormPicker.cs",
               "RelativeDocumentMoniker": "MilSymbolPicker\\FormPicker.cs",
               "ToolTip": "C:\\source\\gitinternal\\MS2525Viewer\\MilSymbolPicker\\FormPicker.cs [Design]",
               "RelativeToolTip": "MilSymbolPicker\\FormPicker.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T00:55:01.019Z",
+              "WhenOpened": "2024-05-05T15:21:10.495Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "SIDC5_Unit.cs",
+              "DocumentMoniker": "C:\\source\\gitinternal\\MS2525Viewer\\MilSymbolPicker\\SIDC5_Unit.cs",
+              "RelativeDocumentMoniker": "MilSymbolPicker\\SIDC5_Unit.cs",
+              "ToolTip": "C:\\source\\gitinternal\\MS2525Viewer\\MilSymbolPicker\\SIDC5_Unit.cs",
+              "RelativeToolTip": "MilSymbolPicker\\SIDC5_Unit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T14:44:05.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FormPicker.cs",
               "DocumentMoniker": "C:\\source\\gitinternal\\MS2525Viewer\\MilSymbolPicker\\FormPicker.cs",
               "RelativeDocumentMoniker": "MilSymbolPicker\\FormPicker.cs",
               "ToolTip": "C:\\source\\gitinternal\\MS2525Viewer\\MilSymbolPicker\\FormPicker.cs",
               "RelativeToolTip": "MilSymbolPicker\\FormPicker.cs",
-              "ViewState": "AQIAACcBAAAAAAAAAAA9wH4BAAAAAAAA",
+              "ViewState": "AQIAAEcCAAAAAAAAAAAiwGkCAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T00:55:07.602Z",
               "EditorCaption": ""

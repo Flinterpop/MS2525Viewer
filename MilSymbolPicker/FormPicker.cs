@@ -412,7 +412,211 @@ namespace MilSymbolPicker
             tbSIDC_12.Text = listBox8.Text;
         }
 
+        private void lb_SIDC8_U_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // user has selected U67X-- 
+            tbSIDC_8.Text = lb_SIDC8_U.Text;
+            tbSIDC_9.Text = "-";
+            tbSIDC_10.Text = "-";
+
+            if (tbSIDC_6.Text == "C")  //UC
+            {
+                SetUpSIDC9and10ForUC();
+            }
+            else if (tbSIDC_6.Text == "U")  //UU
+            {
+                //SetUpSIDC9and10ForUU();
+            }
+            else if (tbSIDC_6.Text == "S")  //US
+            {
+                //SetUpSIDC9and10ForUS();
+            }
+            else if (tbSIDC_6.Text == "U")  //UH
+            {
+                //No options for SIDC 9, 10
+            }
 
 
+
+        }
+
+
+        private void SetUpSIDC9and10ForUC()  //handles UCC  EWX, other EW do not use SIDC 9 or 10       
+        {
+            LB_SIDC_E_9and10.Items.Clear();
+            //UCD
+            if (tbSIDC_7.Text == "D")  //UCD
+            {
+                if (tbSIDC_8.Text == "S")  //UCDS
+                {
+                    String[] W_List = new String[] { "--", "C-", "S-", "V-" };
+                    foreach (String s in W_List) LB_SIDC_U_9and10.Items.Add(s);
+                }
+                else if (tbSIDC_8.Text == "M")  //UCDM
+                {
+                    String[] W_List = new String[] { "--", "L-", "LA", "M-", "H-" };
+                    foreach (String s in W_List) LB_SIDC_U_9and10.Items.Add(s);
+                }
+                else if (tbSIDC_8.Text == "H")  //UCDH
+                {
+                    String[] W_List = new String[] { "--", "H-", "P-" };
+                    foreach (String s in W_List) LB_SIDC_U_9and10.Items.Add(s);
+                }
+            }
+
+            //UCA
+            else if (tbSIDC_7.Text == "A")  //UCA
+            {
+                if (tbSIDC_8.Text == "T")  //UCAT
+                {
+                    String[] W_List = new String[] { "--", "A-", "W-", "WR", "L-", "M-", "H-", "R-" };
+                    foreach (String s in W_List) LB_SIDC_U_9and10.Items.Add(s);
+                }
+                else if (tbSIDC_8.Text == "W")  //UCAW
+                {
+                    String[] W_List = new String[] { "--", "S-", "A-", "W-", "WR", "L-", "M-", "H-", "R-" };
+                    foreach (String s in W_List) LB_SIDC_U_9and10.Items.Add(s);
+                }
+                else if (tbSIDC_8.Text == "A")  //UCAA
+                {
+                    String[] W_List = new String[] { "--", "D-", "L-", "M-", "S-", "U-", "C-", "A-", "AT", "AW", "AS", "0-", "OS" };
+                    foreach (String s in W_List) LB_SIDC_U_9and10.Items.Add(s);
+                }
+            }
+            else if (tbSIDC_7.Text == "V")  //UCV
+            {
+                if (tbSIDC_8.Text == "F")  //UCVF
+                {
+                    String[] W_List = new String[] { "--", "U-", "A-", "R-" };
+                    foreach (String s in W_List) LB_SIDC_U_9and10.Items.Add(s);
+                }
+                else if (tbSIDC_8.Text == "R")  //UCVR
+                {
+                    String[] W_List = new String[] { "--", "A-", "S-", "W-", "U-", "UL", "UM", "UH", "UC", "UE", "M-" };
+                    foreach (String s in W_List) LB_SIDC_U_9and10.Items.Add(s);
+                }
+                else if (tbSIDC_8.Text == "U")  //UCVU
+                {
+                    String[] W_List = new String[] { "--", "F-", "R-" };
+                    foreach (String s in W_List) LB_SIDC_U_9and10.Items.Add(s);
+                }
+            }
+            //else if (tbSIDC_7.Text == "I")  //UCI
+            else if (tbSIDC_7.Text == "E")  //UCE
+            {
+                if (tbSIDC_8.Text == "C")  //UCEC
+                {
+                    String[] W_List = new String[] { "--", "S-", "A-", "C-", "L-", "M-", "H-", "T-", "W-", "O-", "R-" };
+                    foreach (String s in W_List) LB_SIDC_U_9and10.Items.Add(s);
+                }
+                else if (tbSIDC_8.Text == "N")  //UCEN
+                {
+                    String[] W_List = new String[] { "--", "N-" };
+                    foreach (String s in W_List) LB_SIDC_U_9and10.Items.Add(s);
+                }
+            }
+            else if (tbSIDC_7.Text == "F")  //UCF
+            {
+                if (tbSIDC_8.Text == "H")  //UCFH
+                {
+                    String[] W_List = new String[] { "--", "E-", "S-", "A-", "C-", "O-", "L-", "M-", "H-", "X-" };
+                    foreach (String s in W_List) LB_SIDC_U_9and10.Items.Add(s);
+                }
+                else if (tbSIDC_8.Text == "R")  //UCFR
+                {
+                    String[] W_List = new String[] { "--", "S-", "SS", "SR", "ST", "M-", "MS", "MR", "MT" };
+                    foreach (String s in W_List) LB_SIDC_U_9and10.Items.Add(s);
+                }
+                else if (tbSIDC_8.Text == "T")  //UCFT
+                {
+                    String[] W_List = new String[] { "--", "R-", "S-", "F-", "C-", "CD", "CM", "A-" };
+                    foreach (String s in W_List) LB_SIDC_U_9and10.Items.Add(s);
+                }
+                else if (tbSIDC_8.Text == "M")  //UCFM
+                {
+                    String[] W_List = new String[] { "--", "S-", "W-", "T-", "TA", "TS", "TC", "TO", "L-" };
+                    foreach (String s in W_List) LB_SIDC_U_9and10.Items.Add(s);
+                }
+                else if (tbSIDC_8.Text == "S")  //UCFS
+                {
+                    String[] W_List = new String[] { "--", "S-", "A-", "L-", "O-" };
+                    foreach (String s in W_List) LB_SIDC_U_9and10.Items.Add(s);
+                }
+                else if (tbSIDC_8.Text == "O")  //UCFO
+                {
+                    String[] W_List = new String[] { "--", "S-", "A-", "L-", "O-" };
+                    foreach (String s in W_List) LB_SIDC_U_9and10.Items.Add(s);
+                }
+            }
+            else if (tbSIDC_7.Text == "R")  //UCR
+            {
+                if (tbSIDC_8.Text == "V")  //UCRV
+                {
+                    String[] W_List = new String[] { "--", "A-", "M-", "G-", "O-"};
+                    foreach (String s in W_List) LB_SIDC_U_9and10.Items.Add(s);
+                }
+                else if (tbSIDC_8.Text == "R")  //UCRR
+                {
+                    String[] W_List = new String[] { "--", "D-", "F-", "L-"};
+                    foreach (String s in W_List) LB_SIDC_U_9and10.Items.Add(s);
+                }
+            }
+
+            else if (tbSIDC_7.Text == "S")  //UCS
+            {
+                if (tbSIDC_8.Text == "G")  //UCSG
+                {
+                    String[] W_List = new String[] { "--", "D-", "M-", "A-"};
+                    foreach (String s in W_List) LB_SIDC_U_9and10.Items.Add(s);
+                }
+            }
+
+
+
+        }
+
+        private void LB_SIDC_U_9and10_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            String s11 = LB_SIDC_U_9and10.Text;
+            tbSIDC_9.Text = s11.Substring(0, 1);
+            tbSIDC_10.Text = s11.Substring(1, 1);
+        }
+
+        private void DetermineHQTF()
+        {
+            if ((CB_TF.Checked == true) & (CB_HQ.Checked == true)) tbSIDC_11.Text = "B"; //Both
+            else if ((CB_TF.Checked == true) & (CB_HQ.Checked == false)) tbSIDC_11.Text = "E";  //TF
+            else if ((CB_TF.Checked == false) & (CB_HQ.Checked == true)) tbSIDC_11.Text = "A"; // HQ
+            else tbSIDC_11.Text = "-";
+        }
+
+        private void DetermineUnitSize()
+        {
+
+        }
+
+
+        private void CB_HQ_CheckedChanged(object sender, EventArgs e)
+        {
+            DetermineHQTF();
+        }
+
+        private void CB_TF_CheckedChanged(object sender, EventArgs e)
+        {
+            DetermineHQTF();
+        }
+
+        private void RB_UnitSize_CheckedChanged(object sender, EventArgs e)
+        {
+            if (RB_Team.Checked) tbSIDC_12.Text = "A";
+            if (RB_Squad.Checked) tbSIDC_12.Text = "B";
+            if (RB_Section.Checked) tbSIDC_12.Text = "C";
+            if (RB_Platoon.Checked) tbSIDC_12.Text = "D";
+            if (RB_Reg.Checked) tbSIDC_12.Text = "G";
+            if (RB_Coy.Checked) tbSIDC_12.Text = "E";
+            if (RB_BN.Checked) tbSIDC_12.Text = "F";
+            if (RB_Bde.Checked) tbSIDC_12.Text = "H";
+            if (RB_Div.Checked) tbSIDC_12.Text = "I";
+        }
     }
 }
