@@ -390,6 +390,7 @@ namespace MilSymbolPicker
             tbSIDC_8.Text = lb_SIDC8_U.Text;
             tbSIDC_9.Text = "-";
             tbSIDC_10.Text = "-";
+            LB_SIDC_U_9and10.Items.Clear();
 
             if (tbSIDC_6.Text == "C")  //UC
             {

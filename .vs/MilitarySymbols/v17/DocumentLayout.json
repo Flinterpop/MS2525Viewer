@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\source\\Gitinternal\\MS2525Viewer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|c:\\source\\gitinternal\\ms2525viewer\\milsymbolpicker\\formpicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|solutionrelative:milsymbolpicker\\formpicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|C:\\source\\Gitinternal\\MS2525Viewer\\milsymbolpicker\\formpicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|solutionrelative:milsymbolpicker\\formpicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|c:\\source\\gitinternal\\ms2525viewer\\milsymbolpicker\\formpicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|solutionrelative:milsymbolpicker\\formpicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73CAE853-D811-43E7-8680-9D0AC19F8A44}|MilSymbolPicker\\MilSymbolPicker.csproj|C:\\source\\Gitinternal\\MS2525Viewer\\milsymbolpicker\\sidc5_unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FormPicker.cs [Design]",
               "DocumentMoniker": "C:\\source\\Gitinternal\\MS2525Viewer\\MilSymbolPicker\\FormPicker.cs",
               "RelativeDocumentMoniker": "MilSymbolPicker\\FormPicker.cs",
@@ -66,13 +66,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FormPicker.cs",
               "DocumentMoniker": "C:\\source\\Gitinternal\\MS2525Viewer\\MilSymbolPicker\\FormPicker.cs",
               "RelativeDocumentMoniker": "MilSymbolPicker\\FormPicker.cs",
               "ToolTip": "C:\\source\\Gitinternal\\MS2525Viewer\\MilSymbolPicker\\FormPicker.cs",
               "RelativeToolTip": "MilSymbolPicker\\FormPicker.cs",
-              "ViewState": "AQIAAHoBAAAAAAAAAAAowIEBAAAAAAAA",
+              "ViewState": "AQIAAHABAAAAAAAAAAAvwIgBAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T00:55:07.602Z",
               "EditorCaption": ""
