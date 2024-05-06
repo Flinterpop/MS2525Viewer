@@ -17,3 +17,15 @@ D:\GITRepos\reposSource\ms2525sidcviewer\MilitarySymbols\bin\Release\Svg.dll
 D:\GITRepos\reposSource\ms2525sidcviewer\MilitarySymbols\obj\Release\MilitarySymbols.csprojResolveAssemblyReference.cache
 D:\GITRepos\reposSource\ms2525sidcviewer\MilitarySymbols\obj\Release\MilitarySymbols.dll
 D:\GITRepos\reposSource\ms2525sidcviewer\MilitarySymbols\obj\Release\MilitarySymbols.pdb
+C:\source\Gitinternal\MS2525Viewer\MilitarySymbols\bin\Release\Data\LegacyMappingTableCtoD.csv
+C:\source\Gitinternal\MS2525Viewer\MilitarySymbols\bin\Release\Data\All_Entities.csv
+C:\source\Gitinternal\MS2525Viewer\MilitarySymbols\bin\Release\Data\All_Modifiers.csv
+C:\source\Gitinternal\MS2525Viewer\MilitarySymbols\bin\Release\MilitarySymbols.dll.config
+C:\source\Gitinternal\MS2525Viewer\MilitarySymbols\bin\Release\MilitarySymbols.dll
+C:\source\Gitinternal\MS2525Viewer\MilitarySymbols\bin\Release\MilitarySymbols.pdb
+C:\source\Gitinternal\MS2525Viewer\MilitarySymbols\bin\Release\Svg.dll
+C:\source\Gitinternal\MS2525Viewer\MilitarySymbols\obj\Release\MilitarySymbols.csproj.AssemblyReference.cache
+C:\source\Gitinternal\MS2525Viewer\MilitarySymbols\obj\Release\MilitarySymbols.csproj.CoreCompileInputs.cache
+C:\source\Gitinternal\MS2525Viewer\MilitarySymbols\obj\Release\Military.A6EDC367.Up2Date
+C:\source\Gitinternal\MS2525Viewer\MilitarySymbols\obj\Release\MilitarySymbols.dll
+C:\source\Gitinternal\MS2525Viewer\MilitarySymbols\obj\Release\MilitarySymbols.pdb

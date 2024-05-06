@@ -384,34 +384,6 @@ namespace MilSymbolPicker
 
 
 
-        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            tbSIDC_6.Text = listBox2.Text;
-        }
-
-
-
-
-        private void listBox5_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            tbSIDC_9.Text = listBox5.Text;
-        }
-
-        private void listBox6_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            tbSIDC_10.Text = listBox6.Text;
-        }
-
-        private void listBox7_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            tbSIDC_11.Text = listBox7.Text;
-        }
-
-        private void listBox8_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            tbSIDC_12.Text = listBox8.Text;
-        }
-
         private void lb_SIDC8_U_SelectedIndexChanged(object sender, EventArgs e)
         {
             // user has selected U67X-- 
@@ -617,6 +589,8 @@ namespace MilSymbolPicker
             if (RB_BN.Checked) tbSIDC_12.Text = "F";
             if (RB_Bde.Checked) tbSIDC_12.Text = "H";
             if (RB_Div.Checked) tbSIDC_12.Text = "I";
+            if (RB_NIL.Checked) tbSIDC_12.Text = "-";
+
         }
     }
 }
